@@ -56,7 +56,7 @@ include('header.php');
         </div>
 
 
-        <ul class="product-list-ul">
+        <ul class="product-list-ul product-list-ul-col6">
             <?php for($i=0;$i<30;$i++)
             {?>
             <li class="mb-5 product-li">
