@@ -1094,6 +1094,40 @@ h1 {
     display: none;
 }
 
+.favorite-title {
+    font-size: 20px;
+}
+
+.favorite-title-div {
+    border-bottom: 6px solid #ffa400;
+    padding: 0 0 5px 0;
+}
+
+.product-list-ul li .form-check-input {
+    /* position: absolute;
+    top: 0;
+    left: 0; */
+}
+
+.product-div-1 .yellow-share-icon {
+    height: 18px;
+}
+
+.product-div-1 .bin-btn {
+    height: 23px;
+}
+
+.product-div-1 .small-icon-div {}
+
+.product-div-1 .small-icon-div a {
+    display: inline-block;
+    margin: 0 0 0 3px;
+}
+
+#check-fav-option-2 {
+    margin: 0 5px 0 10px !important;
+}
+
 @media (min-width: 1400px) {
     .container,
     .container-lg,
@@ -1175,6 +1209,7 @@ h1 {
 .product-div-1 {
     background: #fff;
     padding: 25px;
+    position: relative;
     text-align: left;
     border: 8px solid #af7c14;
 }
@@ -1885,6 +1920,7 @@ h1 {
 }
 
 .product-list-ul li {
+    position: relative;
     display: inline-block;
     width: 16%;
     list-style-type: none;
@@ -2077,6 +2113,11 @@ h1 {
 }
 
 @media (max-width: 991px) {
+    .favorite-side-menu-ul li {
+        width: auto !important;
+        padding: 0 10px !important;
+        font-size: 14px !important;
+    }
     .subtotal-li {
         display: none !important;
     }
@@ -2145,7 +2186,7 @@ h1 {
     .favorite-side-menu ul {
         text-align: center;
         display: table;
-        margin: 0 auto;
+        margin: 0 auto 20px auto;
     }
     .profile-side-menu li,
     .favorite-side-menu li {
@@ -2256,6 +2297,28 @@ h1 {
 }
 
 @media (max-width: 480px) {
+    .favorite-content-div .product-list-ul li {
+        display: block;
+        width: 100% !important;
+        border: none;
+    }
+    .favorite-content-div .mobile-table-div {
+        display: table;
+        width: 100%;
+    }
+    .favorite-content-div .product-div-1 {
+        padding: 0 30px 0 5px;
+    }
+    .favorite-content-div .product-list-ul li .product-img-wrapper {
+        display: table-cell;
+        width: 40%;
+        padding: 0 20px 0 0;
+    }
+    .favorite-content-div .product-list-ul li .product-info-right {
+        display: table-cell;
+        vertical-align: top;
+        width: 60%;
+    }
     .bottom-show-items-div {
         padding: 0;
         text-align: center;
@@ -2272,5 +2335,20 @@ h1 {
     .logo {
         width: 160px;
         height: auto;
+    }
+    .product-list-ul li .form-check-input {
+        position: absolute;
+        top: 45%;
+        right: 0px;
+    }
+    .yellow-share-icon-a {
+        position: absolute;
+        top: 0;
+        right: 4px;
+    }
+    .bin-btn-a {
+        position: absolute;
+        bottom: 0;
+        right: 2px;
     }
 }
