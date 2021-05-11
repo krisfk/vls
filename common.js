@@ -1,6 +1,6 @@
 $(function() {
     $('.right-nav li a').mouseenter(function() {
-        $('.submenu').stop().fadeOut(0);
+        // $('.submenu').stop().fadeOut(0);
         $('.nation-submenu').fadeOut(0);
         // $('.nation-tri').css({
         //     opacity: '0',
