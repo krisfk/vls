@@ -135,7 +135,7 @@ include('header.php');
                             <div class="final-price"><span class="s">$</span><span class="b">9999</span><span
                                     class="s">.99</span></div>
 
-                            <a href="" class="cart-btn mt-3">
+                            <a href="./cart.php" class="cart-btn mt-3">
                                 <img src="./images/cart-icon2.png" alt="">
                                 加入購物車</a>
                         </div>
@@ -175,7 +175,7 @@ include('header.php');
                             <div class="final-price"><span class="s">$</span><span class="b">9999</span><span
                                     class="s">.99</span></div>
 
-                            <a href="" class="cart-btn mt-3"> <img src="./images/cart-icon2.png" alt="">
+                            <a href="./cart.php" class="cart-btn mt-3"> <img src="./images/cart-icon2.png" alt="">
                                 加入購物車</a>
                         </div>
                     </div>
@@ -214,7 +214,7 @@ include('header.php');
                             <div class="final-price"><span class="s">$</span><span class="b">9999</span><span
                                     class="s">.99</span></div>
 
-                            <a href="" class="cart-btn mt-3"> <img src="./images/cart-icon2.png" alt="">
+                            <a href="./cart.php" class="cart-btn mt-3"> <img src="./images/cart-icon2.png" alt="">
                                 加入購物車</a>
                         </div>
                     </div>
@@ -254,7 +254,7 @@ include('header.php');
                             <div class="final-price"><span class="s">$</span><span class="b">9999</span><span
                                     class="s">.99</span></div>
 
-                            <a href="" class="cart-btn mt-3"> <img src="./images/cart-icon2.png" alt="">
+                            <a href="./cart.php" class="cart-btn mt-3"> <img src="./images/cart-icon2.png" alt="">
                                 加入購物車</a>
                         </div>
                     </div>
@@ -324,7 +324,7 @@ include('header.php');
                             </div>
                             <div>日本日本多啦A夢叮日本日本多啦A夢叮</div>
                             <div class="final-price"><span class="s">$</span> <span class="b">60.00</span></div>
-                            <a href="" class="cart-btn-2 mt-1">
+                            <a href="./cart.php" class="cart-btn-2 mt-1">
                                 <img src="./images/cart-icon2.png" alt="">
                                 加入購物車</a>
                         </div>
@@ -348,7 +348,7 @@ include('header.php');
                             </div>
                             <div>日本日本多啦A夢叮日本日本多啦A夢叮</div>
                             <div class="final-price"><span class="s">$</span> <span class="b">60.00</span></div>
-                            <a href="" class="cart-btn-2 mt-1"> <img src="./images/cart-icon2.png" alt="">
+                            <a href="./cart.php" class="cart-btn-2 mt-1"> <img src="./images/cart-icon2.png" alt="">
                                 加入購物車</a>
                         </div>
                         <div class="col-lg-2 col-md-4 col-sm-4 col-4 product-div-2">
@@ -371,7 +371,7 @@ include('header.php');
                             </div>
                             <div>日本日本多啦A夢叮日本日本多啦A夢叮</div>
                             <div class="final-price"><span class="s">$</span> <span class="b">60.00</span></div>
-                            <a href="" class="cart-btn-2 mt-1"> <img src="./images/cart-icon2.png" alt="">
+                            <a href="./cart.php" class="cart-btn-2 mt-1"> <img src="./images/cart-icon2.png" alt="">
                                 加入購物車</a>
                         </div>
                         <div class="col-lg-2 col-md-4 col-sm-4 col-4 product-div-2">
@@ -394,7 +394,7 @@ include('header.php');
                             </div>
                             <div>日本日本多啦A夢叮日本日本多啦A夢叮</div>
                             <div class="final-price"><span class="s">$</span> <span class="b">60.00</span></div>
-                            <a href="" class="cart-btn-2 mt-1"> <img src="./images/cart-icon2.png" alt="">
+                            <a href="./cart.php" class="cart-btn-2 mt-1"> <img src="./images/cart-icon2.png" alt="">
                                 加入購物車</a>
                         </div>
                         <div class="col-lg-2 col-md-4 col-sm-4 col-4 product-div-2">
@@ -417,7 +417,7 @@ include('header.php');
                             </div>
                             <div>日本日本多啦A夢叮日本日本多啦A夢叮</div>
                             <div class="final-price"><span class="s">$</span> <span class="b">60.00</span></div>
-                            <a href="" class="cart-btn-2 mt-1"> <img src="./images/cart-icon2.png" alt="">
+                            <a href="./cart.php" class="cart-btn-2 mt-1"> <img src="./images/cart-icon2.png" alt="">
                                 加入購物車</a>
                         </div>
                         <div class="col-lg-2 col-md-4 col-sm-4 col-4 product-div-2">
@@ -440,7 +440,7 @@ include('header.php');
                             </div>
                             <div>日本日本多啦A夢叮日本日本多啦A夢叮</div>
                             <div class="final-price"><span class="s">$</span> <span class="b">60.00</span></div>
-                            <a href="" class="cart-btn-2 mt-1"> <img src="./images/cart-icon2.png" alt="">
+                            <a href="./cart.php" class="cart-btn-2 mt-1"> <img src="./images/cart-icon2.png" alt="">
                                 加入購物車</a>
                         </div>
                     </div>
@@ -496,7 +496,7 @@ include('header.php');
                             </div>
                             <div>日本日本多啦A夢叮日本日本多啦A夢叮</div>
                             <div class="final-price"><span class="s">$</span> <span class="b">60.00</span></div>
-                            <a href="" class="cart-btn-2 mt-1"> <img src="./images/cart-icon2.png" alt="">
+                            <a href="./cart.php" class="cart-btn-2 mt-1"> <img src="./images/cart-icon2.png" alt="">
                                 加入購物車</a>
                         </div>
                         <div class="col-lg-2 col-md-4 col-sm-4 col-4 product-div-2">
@@ -519,7 +519,7 @@ include('header.php');
                             </div>
                             <div>日本日本多啦A夢叮日本日本多啦A夢叮</div>
                             <div class="final-price"><span class="s">$</span> <span class="b">60.00</span></div>
-                            <a href="" class="cart-btn-2 mt-1"> <img src="./images/cart-icon2.png" alt="">
+                            <a href="./cart.php" class="cart-btn-2 mt-1"> <img src="./images/cart-icon2.png" alt="">
                                 加入購物車</a>
                         </div>
                         <div class="col-lg-2 col-md-4 col-sm-4 col-4 product-div-2">
@@ -542,7 +542,7 @@ include('header.php');
                             </div>
                             <div>日本日本多啦A夢叮日本日本多啦A夢叮</div>
                             <div class="final-price"><span class="s">$</span> <span class="b">60.00</span></div>
-                            <a href="" class="cart-btn-2 mt-1"> <img src="./images/cart-icon2.png" alt="">
+                            <a href="./cart.php" class="cart-btn-2 mt-1"> <img src="./images/cart-icon2.png" alt="">
                                 加入購物車</a>
                         </div>
                         <div class="col-lg-2 col-md-4 col-sm-4 col-4 product-div-2">
@@ -565,7 +565,7 @@ include('header.php');
                             </div>
                             <div>日本日本多啦A夢叮日本日本多啦A夢叮</div>
                             <div class="final-price"><span class="s">$</span> <span class="b">60.00</span></div>
-                            <a href="" class="cart-btn-2 mt-1"> <img src="./images/cart-icon2.png" alt="">
+                            <a href="./cart.php" class="cart-btn-2 mt-1"> <img src="./images/cart-icon2.png" alt="">
                                 加入購物車</a>
                         </div>
                         <div class="col-lg-2 col-md-4 col-sm-4 col-4 product-div-2">
@@ -588,7 +588,7 @@ include('header.php');
                             </div>
                             <div>日本日本多啦A夢叮日本日本多啦A夢叮</div>
                             <div class="final-price"><span class="s">$</span> <span class="b">60.00</span></div>
-                            <a href="" class="cart-btn-2 mt-1"> <img src="./images/cart-icon2.png" alt="">
+                            <a href="./cart.php" class="cart-btn-2 mt-1"> <img src="./images/cart-icon2.png" alt="">
                                 加入購物車</a>
                         </div>
                         <div class="col-lg-2 col-md-4 col-sm-4 col-4 product-div-2">
@@ -611,7 +611,7 @@ include('header.php');
                             </div>
                             <div>日本日本多啦A夢叮日本日本多啦A夢叮</div>
                             <div class="final-price"><span class="s">$</span> <span class="b">60.00</span></div>
-                            <a href="" class="cart-btn-2 mt-1"> <img src="./images/cart-icon2.png" alt="">
+                            <a href="./cart.php" class="cart-btn-2 mt-1"> <img src="./images/cart-icon2.png" alt="">
                                 加入購物車</a>
                         </div>
                     </div>
@@ -669,7 +669,7 @@ include('header.php');
                             </div>
                             <div>日本日本多啦A夢叮日本日本多啦A夢叮</div>
                             <div class="final-price"><span class="s">$</span> <span class="b">60.00</span></div>
-                            <a href="" class="cart-btn-2 mt-1"> <img src="./images/cart-icon2.png" alt="">
+                            <a href="./cart.php" class="cart-btn-2 mt-1"> <img src="./images/cart-icon2.png" alt="">
                                 加入購物車</a>
                         </div>
                         <div class="col-lg-2 col-md-4 col-sm-4 col-4 product-div-2">
@@ -692,7 +692,7 @@ include('header.php');
                             </div>
                             <div>日本日本多啦A夢叮日本日本多啦A夢叮</div>
                             <div class="final-price"><span class="s">$</span> <span class="b">60.00</span></div>
-                            <a href="" class="cart-btn-2 mt-1"> <img src="./images/cart-icon2.png" alt="">
+                            <a href="./cart.php" class="cart-btn-2 mt-1"> <img src="./images/cart-icon2.png" alt="">
                                 加入購物車</a>
                         </div>
                         <div class="col-lg-2 col-md-4 col-sm-4 col-4 product-div-2">
@@ -715,7 +715,7 @@ include('header.php');
                             </div>
                             <div>日本日本多啦A夢叮日本日本多啦A夢叮</div>
                             <div class="final-price"><span class="s">$</span> <span class="b">60.00</span></div>
-                            <a href="" class="cart-btn-2 mt-1"> <img src="./images/cart-icon2.png" alt="">
+                            <a href="./cart.php" class="cart-btn-2 mt-1"> <img src="./images/cart-icon2.png" alt="">
                                 加入購物車</a>
                         </div>
                         <div class="col-lg-2 col-md-4 col-sm-4 col-4 product-div-2">
@@ -738,7 +738,7 @@ include('header.php');
                             </div>
                             <div>日本日本多啦A夢叮日本日本多啦A夢叮</div>
                             <div class="final-price"><span class="s">$</span> <span class="b">60.00</span></div>
-                            <a href="" class="cart-btn-2 mt-1"><img src="./images/cart-icon2.png" alt="">
+                            <a href="./cart.php" class="cart-btn-2 mt-1"><img src="./images/cart-icon2.png" alt="">
                                 加入購物車</a>
                         </div>
                         <div class="col-lg-2 col-md-4 col-sm-4 col-4 product-div-2">
@@ -761,7 +761,7 @@ include('header.php');
                             </div>
                             <div>日本日本多啦A夢叮日本日本多啦A夢叮</div>
                             <div class="final-price"><span class="s">$</span> <span class="b">60.00</span></div>
-                            <a href="" class="cart-btn-2 mt-1"> <img src="./images/cart-icon2.png" alt="">
+                            <a href="./cart.php" class="cart-btn-2 mt-1"> <img src="./images/cart-icon2.png" alt="">
                                 加入購物車</a>
                         </div>
                         <div class="col-lg-2 col-md-4 col-sm-4 col-4 product-div-2">
@@ -784,7 +784,7 @@ include('header.php');
                             </div>
                             <div>日本日本多啦A夢叮日本日本多啦A夢叮</div>
                             <div class="final-price"><span class="s">$</span> <span class="b">60.00</span></div>
-                            <a href="" class="cart-btn-2 mt-1"> <img src="./images/cart-icon2.png" alt="">
+                            <a href="./cart.php" class="cart-btn-2 mt-1"> <img src="./images/cart-icon2.png" alt="">
                                 加入購物車</a>
                         </div>
                     </div>

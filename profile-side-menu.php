@@ -2,7 +2,7 @@
 <ul class="no-dot">
 
 
-    <li> <a href="javascript:void(0)">
+    <li> <a href="./favorite.php">
             <img src="./images/profile-side-menu-btn-1.png" alt="">
 
             好想買過的產品</a></li>

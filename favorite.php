@@ -59,6 +59,10 @@
 
                                         <img class="product-img w-100" src="./images/product-foto-1.jpg" alt="">
 
+                                        <a href="javascript:void(0)" class="mobile cart-btn mt-3"> <img
+                                                src="./images/cart-icon2.png" alt="">
+                                            加入購物車</a>
+
                                     </div>
 
                                     <div class="product-info-right">

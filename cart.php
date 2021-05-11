@@ -89,7 +89,7 @@
                                 <a href="#" class="more-dot-btn-a">
                                 </a>
                                 <ul>
-                                    <li><a href="#"> 移到好想買清單</a></li>
+                                    <li><a href="./favorite.php"> 移到好想買清單</a></li>
                                     <li><a href="#">刪除</a></li>
                                 </ul>
                             </div>

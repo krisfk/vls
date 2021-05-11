@@ -224,7 +224,7 @@ include('header.php');
                                 <li> <a href="./product-detail.php" class="hover-layer-btn"> <img class="eye-icon"
                                             src="./images/eye-icon.png" alt="">快速睇產品</a></li>
 
-                                <li> <a href="" class="hover-layer-btn"><img class="heart-icon"
+                                <li> <a href="./favorite.php" class="hover-layer-btn"><img class="heart-icon"
                                             src="./images/heart-icon.png" alt="">加入好想買清單</a></li>
 
                             </ul>
@@ -254,7 +254,7 @@ include('header.php');
                     <div class="final-price"><span class="s">$</span><span class="b">9999</span><span
                             class="s">.99</span></div>
 
-                    <a href="javascript:void(0)" class="cart-btn mt-3"> <img src="./images/cart-icon2.png" alt="">
+                    <a href="./cart.php" class="cart-btn mt-3"> <img src="./images/cart-icon2.png" alt="">
                         加入購物車</a>
                 </div>
 

@@ -208,9 +208,9 @@
                         <ul class="submenu  submenu-2">
                             <li class="tri"></li>
                             <li class="bg"></li>
-                            <li><a href="#">好想買清單</a></li>
-                            <li><a href="#">買過的產品</a></li>
-                            <li><a href="#">最近睇過的產品</a></li>
+                            <li><a href="./favorite.php">好想買清單</a></li>
+                            <li><a href="./favorite.php">買過的產品</a></li>
+                            <li><a href="./favorite.php">最近睇過的產品</a></li>
                         </ul>
                     </li>
                     <li><a href="./cart.php" class="cart-a">

@@ -156,8 +156,8 @@
                     <a href="" class="cart-btn mt-3"> <img src="./images/cart-icon2.png" alt="">
                         加入購物車</a>
 
-                    <a href="" class="want cart-btn mt-3"><img class="heart-icon" src="./images/heart-icon.png"
-                            alt="">加入好想買清單</a>
+                    <a href="./favorite.php" class="want cart-btn mt-3"><img class="heart-icon"
+                            src="./images/heart-icon.png" alt="">加入好想買清單</a>
 
 
                     <a href="" class="backorder cart-btn mt-3"><img class="heart-icon" src="./images/box-icon.png"
