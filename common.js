@@ -208,7 +208,7 @@ $(function() {
 
     $('.mobile-search-icon-a').click(function() {
         $(this).toggleClass('active');
-        if (!$(this).hasClass('active')) {
+        if ($(this).hasClass('active')) {
             $('.mobile-search').fadeIn(0);
         } else {
             $('.mobile-search').fadeOut(0);
