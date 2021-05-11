@@ -2,9 +2,9 @@ $(function() {
     $('.right-nav li a').mouseenter(function() {
         $('.submenu').stop().fadeOut(0);
         $('.nation-submenu').fadeOut(0);
-        $('.nation-tri').css({
-            opacity: '0',
-        });
+        // $('.nation-tri').css({
+        //     opacity: '0',
+        // });
         if (!$(this).hasClass('cart-a')) {
             $(this).next('.submenu').fadeIn(0);
 
