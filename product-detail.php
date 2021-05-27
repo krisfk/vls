@@ -26,7 +26,7 @@
             </div>
 
 
-            <h1>日本市集 - 日版榛子朱古力夾心酥餅禮盒 (1盒7件)</h1>
+            <h1 class="product-name">日本市集 - 日版榛子朱古力夾心酥餅禮盒 (1盒7件)</h1>
 
             <ul class="category-tag p-0">
                 <li class="d-inline-block"><a href="javascript:void(0)"> 零食甜品</a></li>
@@ -35,7 +35,7 @@
             </ul>
 
 
-            <div class="row">
+            <div class="row g-0">
                 <div class="col-lg-4 col-md-12 col-sm-12 col-12 desktop-product-img-col">
                     <a href="javascript:void(0)">
                         <img class="w-100 large-product-foto" src="./images/product-foto-1.jpg" alt="">
@@ -87,7 +87,7 @@
                             <td></td>
                             <td class="p-0">
 
-                                <div class="old-price"> HK$79.9
+                                <div class="old-price"> HK$79.99
                                 </div>
 
 
@@ -116,7 +116,7 @@
                             <td class="att">產品特色 </td>
                             <td>百年工藝 地區食材限定！</td>
                         </tr>
-                        <tr>
+                        <tr style="display:none">
                             <td class="att">組合優惠</td>
                             <td>限時額外88折！多款產品。
                                 優惠期及數量有限，售完即止。</td>
@@ -168,7 +168,8 @@
                 </div>
                 <div class="col-3 product-detail-right-col">
 
-                    <div class="foot-bg pt-2 pb-3 small-banner">
+                    <div class="foot-bg pt-2 pb-3 small-banner position-relative">
+                        <a href="./snoopy.php" class="campaign-url"></a>
                         <div class="text-center color-white pb-1">史路比奇幻世界</div>
                         <div class="video-img-div">
                             <img class="dummy" src="./images/video-img.jpg" alt="">
@@ -187,19 +188,19 @@
                         </div>
                     </div>
 
-                    <a href="#" class="small-banner">
+                    <a href="javascript:void(0)" class="small-banner">
 
                         <div class="banner-title blue-bg">日本E.minette</div>
                         <img src="./images/small-banner-2.jpg" alt="">
                     </a>
 
-                    <a href="#" class="small-banner">
+                    <a href="javascript:void(0)" class="small-banner">
 
                         <div class="banner-title yellow-bg">日本E.minette</div>
                         <img src="./images/small-banner-3.jpg" alt="">
                     </a>
 
-                    <a href="#" class="small-banner">
+                    <a href="javascript:void(0)" class="small-banner">
 
                         <div class="banner-title green-bg">日本E.minette</div>
                         <img src="./images/small-banner-2.jpg" alt="">
@@ -256,7 +257,6 @@ $(function() {
 </script>
 
 
-<script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
 
 
 <?php include('footer.php')?>

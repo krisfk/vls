@@ -11,7 +11,7 @@
                 <div class="col-lg-3 col-md-12 col-sm-12 col-12 profile-side-menu">
                     <?php include('profile-side-menu.php');?>
                 </div>
-                <div class="col-lg-9 col-md-12 col-sm-12 col-12 mt-5 profile-content-div">
+                <div class="col-lg-9 col-md-12 col-sm-12 col-12 mt-3 profile-content-div">
                     <div class="profile-subpage-title">送貨地址</div>
 
                     <div class="mt-4">
@@ -19,7 +19,7 @@
                             <table class="w-100">
                                 <tr>
                                     <td>預設送貨地址</td>
-                                    <td class="text-end"> <a href="#"
+                                    <td class="text-end"> <a href="javascript:void(0)"
                                             class="form-button w-auto d-inline-block ps-3 pe-3">繼續結帳</a>
                                     </td>
                                 </tr>
@@ -57,7 +57,7 @@
                                         class="address-div-btn-img" src="./images/pen-btn.png" alt=""></a>
                                 <a href="javascript:void(0)" class="address-div-btn-a  address-div-btn-a-bin"><img
                                         class="address-div-btn-img" src="./images/bin-btn.png" alt=""></a>
-                                <a href="#"
+                                <a href="javascript:void(0)"
                                     class="ms-2 form-button d-inline-block set-default-address-btn w-auto ps-3 pe-3">設為預設地址</a>
 
                             </div>
@@ -73,7 +73,7 @@
                                         class="address-div-btn-img" src="./images/pen-btn.png" alt=""></a>
                                 <a href="javascript:void(0)" class="address-div-btn-a  address-div-btn-a-bin"><img
                                         class="address-div-btn-img" src="./images/bin-btn.png" alt=""></a>
-                                <a href="#"
+                                <a href="javascript:void(0)"
                                     class="ms-2 form-button d-inline-block set-default-address-btn w-auto ps-3 pe-3">設為預設地址</a>
 
                             </div>

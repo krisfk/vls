@@ -38,7 +38,7 @@
                     <ul class="product-list-ul product-list-ul-col5">
                         <?php for($i=0;$i<30;$i++)
             {?>
-                        <li class="mb-5 product-li">
+                        <li class="mb-4 product-li">
 
 
 
@@ -46,9 +46,9 @@
                                 <input class="form-check-input" type="checkbox" value="" id="">
 
                                 <div class="float-end small-icon-div">
-                                    <a href="#" class="yellow-share-icon-a"> <img class="yellow-share-icon"
+                                    <a href="javascript:void(0)" class="yellow-share-icon-a"> <img class="yellow-share-icon"
                                             src="./images/yellow-share-icon.png" alt=""></a>
-                                    <a href="#" class="bin-btn-a"> <img class="bin-btn" src="./images/bin-btn.png"
+                                    <a href="javascript:void(0)" class="bin-btn-a"> <img class="bin-btn" src="./images/bin-btn.png"
                                             alt=""></a>
 
                                 </div>
@@ -82,7 +82,7 @@
 
                                         </div>
                                         <div class="limited-quantity  mt-1">日本限量版1000件</div>
-                                        <div class="old-price price  mt-1">HK$79.9</div>
+                                        <div class="old-price price  mt-1">HK$79.99</div>
                                         <div class="final-price"><span class="s">$</span><span
                                                 class="b">9999</span><span class="s">.99</span></div>
                                     </div>

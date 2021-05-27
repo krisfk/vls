@@ -12,8 +12,8 @@
 
                 <table>
                     <tr>
-                        <td> <a href="#" class="active login-form-btn login-form-div-a"> 登入</a></td>
-                        <td><a href="#" class="reg-form-btn login-form-div-a">登記</a></td>
+                        <td> <a href="javascript:void(0)" class="active login-form-btn login-form-div-a"> 登入</a></td>
+                        <td><a href="javascript:void(0)" class="reg-form-btn login-form-div-a">登記</a></td>
 
                     </tr>
                 </table>
@@ -38,7 +38,7 @@
                             <ul class="m-0 p-0">
                                 <li class="d-inline-block"> <input type="checkbox" class="form-check-input"> 自動登入</li>
                                 <li class="d-inline-block ms-2">
-                                    <a href="#">
+                                    <a href="javascript:void(0)">
                                         忘記密碼</a>
                                 </li>
                             </ul>
@@ -50,8 +50,8 @@
 
                         <div class="row">
 
-                            <a href="#" class="reg-method-a col-6">以Facebook 帳戶登記</a>
-                            <a href="#" class="reg-method-a col-6">以流動電話號碼登記</a>
+                            <a href="javascript:void(0)" class="reg-method-a col-6">以Facebook 帳戶登記</a>
+                            <a href="javascript:void(0)" class="reg-method-a col-6">以流動電話號碼登記</a>
 
                         </div>
 

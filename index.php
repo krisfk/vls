@@ -2,12 +2,29 @@
 include('header.php');
 ?>
 <div class="middle-container">
-    <a class="banner-div d-block" href="./snoopy.php" style="background:#0994b3">
 
-        <div class="container">
-            <img class="w-100" src="./images/banner.jpg" alt="">
-        </div>
-    </a>
+    <div class="banner-container">
+
+        <?php
+    
+    for($i=0;$i<8;$i++)
+    {
+    
+    ?>
+        <a class="banner-div d-block" href="./snoopy.php" style="background:#0994b3">
+
+            <div class="container">
+
+                <img class="w-100" src="./images/banner.jpg" alt="">
+            </div>
+        </a>
+        <?php
+        
+    }?>
+
+
+    </div>
+
 
     <div class="small-banner-container-wrapper">
         <div class="container position-relative">
@@ -21,9 +38,11 @@ include('header.php');
                     <div class=" video-player-col-div">
                         <!-- <div class="position-relative"> -->
                         <div class="video-player-div foot-bg">
+                            <a href="./snoopy.php" class="campaign-url"></a>
 
-                            <div class="text-center video-title pt-1 pb-1 fw-bold">史路比奇幻世界</div>
-                            <div class="position-relative ps-3 pe-3 video-img-div-small">
+                            <div class="text-center video-title pt-1 pb-1 fw-bold d-block text-center">史路比奇幻世界</div>
+                            <div class="position-relative ps-3 pe-3 video-img-div-small"
+                                style="background: url(./images/still-thumbnail.jpg)">
 
                                 <div class="pause-txt">影響放大播放中...</div>
                                 <!-- <a href="javascript:void(0);" class="play-btn-div">
@@ -43,6 +62,7 @@ include('header.php');
                                 </video>
 
                             </div>
+                            <!-- <a href="./snoopy.php" class="d-block w-100 preview-video-bottom-a"></a> -->
                         </div>
                         <!-- </div> -->
                     </div>
@@ -95,170 +115,56 @@ include('header.php');
 
                 <div class="row mt-5">
 
-                    <div class="col-lg-3 col-md-6 col-sm-6 col-6 mb-3">
-                        <div class="product-div-1">
 
-
-                            <div class="text-center position-relative product-img-wrapper">
-
-
-                                <div class="position-absolute w-100 h-100 hover-layer text-start">
-                                    <ul>
-                                        <li> <a href="./product-detail.php" class="hover-layer-btn"> <img
-                                                    class="eye-icon" src="./images/eye-icon.png" alt="">快速睇產品</a></li>
-
-                                        <li> <a href="" class="hover-layer-btn"><img class="heart-icon"
-                                                    src="./images/heart-icon.png" alt="">加入好想買清單</a></li>
-
-                                    </ul>
-
-                                </div>
-                                <img class="w-100" src="./images/product-foto-1.jpg" alt="">
-
-                            </div>
-
-                            <div class="product-name">日版 多啦A夢 叮噹造型曲奇餅禮盒（1盒6塊）</div>
-                            <div class="product-set mt-1">1盒6塊</div>
-
-                            <div class="recommend-rate  mt-1">
-                                好想買指數：
-
-                                <div class="pt-div"><img class="pt" src="./images/green-pt.png" alt=""> <img class="pt"
-                                        src="./images/green-pt.png" alt=""> <img class="pt" src="./images/green-pt.png"
-                                        alt=""> <img class="pt" src="./images/green-pt.png" alt="">
-                                    <img class="pt" src="./images/grey-pt.png" alt="">
-                                </div>
-
-                            </div>
-                            <div class="limited-quantity  mt-1">日本限量版1000件</div>
-                            <div class="old-price price  mt-1">HK$79.9</div>
-                            <div class="final-price"><span class="s">$</span><span class="b">9999</span><span
-                                    class="s">.99</span></div>
-
-                            <a href="./cart.php" class="cart-btn mt-3">
-                                <img src="./images/cart-icon2.png" alt="">
-                                加入購物車</a>
-                        </div>
-                    </div>
+                    <?php for($i=0;$i<4;$i++)
+                  {
+                      ?>
                     <div class="col-lg-3 col-md-6 col-sm-6 col-6  mb-3">
                         <div class="product-div-1">
                             <div class="text-center position-relative product-img-wrapper">
 
 
-                                <div class="position-absolute w-100 h-100 hover-layer text-start">
+                                <div class="position-absolute w-100 hover-layer text-start">
                                     <ul>
                                         <li> <a href="./product-detail.php" class="hover-layer-btn"> <img
                                                     class="eye-icon" src="./images/eye-icon.png" alt="">快速睇產品</a></li>
 
-                                        <li> <a href="" class="hover-layer-btn"><img class="heart-icon"
+                                        <li> <a href="" class="heart hover-layer-btn"><img class="heart-icon"
                                                     src="./images/heart-icon.png" alt="">加入好想買清單</a></li>
 
                                     </ul>
 
                                 </div>
-                                <img class="w-100" src="./images/product-foto-1.jpg" alt="">
 
+                                <a href="./product-detail.php">
+                                    <img class="w-100" src="./images/product-foto-1.jpg" alt="">
+                                </a>
                             </div>
-                            <div class="product-name">日版 多啦A夢 叮噹造型曲奇餅禮盒（1盒6塊）</div>
-                            <div class="product-set mt-1">1盒6塊</div>
+                            <a href="./product-detail.php" target="_blank">
+                                <div class="product-name">日版 多啦A夢 叮噹造型曲奇餅禮盒（1盒6塊）</div>
+                                <div class="product-set mt-1">1盒6塊</div>
 
-                            <div class="recommend-rate  mt-1">
-                                好想買指數： <div class="pt-div"><img class="pt" src="./images/green-pt.png" alt=""> <img
-                                        class="pt" src="./images/green-pt.png" alt=""> <img class="pt"
-                                        src="./images/green-pt.png" alt=""> <img class="pt" src="./images/green-pt.png"
-                                        alt="">
-                                    <img class="pt" src="./images/grey-pt.png" alt="">
+                                <div class="recommend-rate  mt-1">
+                                    好想買指數：
+                                    <div class="pt-div"> <img class="pt" src="./images/green-pt.png" alt=""> <img
+                                            class="pt" src="./images/green-pt.png" alt=""> <img class="pt"
+                                            src="./images/green-pt.png" alt=""> <img class="pt"
+                                            src="./images/green-pt.png" alt="">
+                                        <img class="pt" src="./images/grey-pt.png" alt="">
+                                    </div>
                                 </div>
-                            </div>
-                            <div class="limited-quantity  mt-1">日本限量版1000件</div>
-                            <div class="old-price price  mt-1">HK$79.9</div>
-                            <div class="final-price"><span class="s">$</span><span class="b">9999</span><span
-                                    class="s">.99</span></div>
+                                <div class="limited-quantity  mt-1">日本限量版1000件</div>
+                                <div class="old-price price  mt-1">HK$79.99</div>
+                                <div class="final-price"><span class="s">$</span><span class="b">9999</span><span
+                                        class="s">.99</span></div>
+                            </a>
 
                             <a href="./cart.php" class="cart-btn mt-3"> <img src="./images/cart-icon2.png" alt="">
                                 加入購物車</a>
                         </div>
                     </div>
-                    <div class="col-lg-3 col-md-6 col-sm-6 col-6  mb-3">
-                        <div class="product-div-1">
-                            <div class="text-center position-relative product-img-wrapper">
-
-
-                                <div class="position-absolute w-100 h-100 hover-layer text-start">
-                                    <ul>
-                                        <li> <a href="./product-detail.php" class="hover-layer-btn"> <img
-                                                    class="eye-icon" src="./images/eye-icon.png" alt="">快速睇產品</a></li>
-
-                                        <li> <a href="" class="hover-layer-btn"><img class="heart-icon"
-                                                    src="./images/heart-icon.png" alt="">加入好想買清單</a></li>
-
-                                    </ul>
-
-                                </div>
-                                <img class="w-100" src="./images/product-foto-1.jpg" alt="">
-
-                            </div>
-                            <div class="product-name">日版 多啦A夢 叮噹造型曲奇餅禮盒（1盒6塊）</div>
-                            <div class="product-set mt-1">1盒6塊</div>
-
-                            <div class="recommend-rate  mt-1">
-                                好想買指數：
-                                <div class="pt-div"> <img class="pt" src="./images/green-pt.png" alt=""> <img class="pt"
-                                        src="./images/green-pt.png" alt=""> <img class="pt" src="./images/green-pt.png"
-                                        alt=""> <img class="pt" src="./images/green-pt.png" alt="">
-                                    <img class="pt" src="./images/grey-pt.png" alt="">
-                                </div>
-                            </div>
-                            <div class="limited-quantity  mt-1">日本限量版1000件</div>
-                            <div class="old-price price  mt-1">HK$79.9</div>
-                            <div class="final-price"><span class="s">$</span><span class="b">9999</span><span
-                                    class="s">.99</span></div>
-
-                            <a href="./cart.php" class="cart-btn mt-3"> <img src="./images/cart-icon2.png" alt="">
-                                加入購物車</a>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6 col-sm-6 col-6  mb-3">
-                        <div class="product-div-1">
-                            <div class="text-center position-relative product-img-wrapper">
-
-
-                                <div class="position-absolute w-100 h-100 hover-layer text-start">
-                                    <ul>
-                                        <li> <a href="./product-detail.php" class="hover-layer-btn"> <img
-                                                    class="eye-icon" src="./images/eye-icon.png" alt="">快速睇產品</a></li>
-
-                                        <li> <a href="" class="hover-layer-btn"><img class="heart-icon"
-                                                    src="./images/heart-icon.png" alt="">加入好想買清單</a></li>
-
-                                    </ul>
-
-                                </div>
-                                <img class="w-100" src="./images/product-foto-1.jpg" alt="">
-
-                            </div>
-                            <div class="product-name">日版 多啦A夢 叮噹造型曲奇餅禮盒（1盒6塊）</div>
-                            <div class="product-set mt-1">1盒6塊</div>
-
-                            <div class="recommend-rate  mt-1">
-                                好想買指數：<div class="pt-div"> <img class="pt" src="./images/green-pt.png" alt=""> <img
-                                        class="pt" src="./images/green-pt.png" alt=""> <img class="pt"
-                                        src="./images/green-pt.png" alt=""> <img class="pt" src="./images/green-pt.png"
-                                        alt="">
-                                    <img class="pt" src="./images/grey-pt.png" alt="">
-                                </div>
-
-                            </div>
-                            <div class="limited-quantity  mt-1">日本限量版1000件</div>
-                            <div class="old-price price  mt-1">HK$79.9</div>
-                            <div class="final-price"><span class="s">$</span><span class="b">9999</span><span
-                                    class="s">.99</span></div>
-
-                            <a href="./cart.php" class="cart-btn mt-3"> <img src="./images/cart-icon2.png" alt="">
-                                加入購物車</a>
-                        </div>
-                    </div>
-
+                    <?php
+                  }?>
 
                 </div>
 
@@ -278,171 +184,72 @@ include('header.php');
 
 
         <?php
-    for($i=0;$i<3;$i++)
+    for($j=0;$j<3;$j++)
     {
      ?>
 
-        <div class="want-to-buy-div mt-5 orange-border">
-            <div class="want-to-buy-title ">
+        <div class="want-to-buy-div orange-border">
+            <a href="./snoopy.php" class="want-to-buy-title ">
 
                 <div class="want-to-buy-title-txt">
                     <span class="fw-bold">好想買</span>的日本零食
                 </div>
                 <div class="cate-foto-2-div">
+
                     <img class="cate-foto-2" src="./images/cate-foto-2.jpg" alt="">
                 </div>
-            </div>
+            </a>
 
         </div>
         <div class="want-to-buy-row orange-border">
 
             <ul>
                 <li>
-                    <img class="want-to-buy-product-img" src="./images/cate-foto-1.jpg" alt="">
+                    <a href="./snoopy.php"><img class="want-to-buy-product-img" src="./images/cate-foto-1.jpg"
+                            alt=""></a>
                 </li>
 
                 <li class="right-div">
                     <div class="row">
 
+
+                        <?php 
+                        
+                        for($i=0;$i<6;$i++)
+                        {
+                            ?>
                         <div class="col-lg-2 col-md-4 col-sm-4 col-4 product-div-2">
                             <div class="text-center position-relative product-img-wrapper">
 
 
-                                <div class="position-absolute w-100 h-100 hover-layer text-start">
+                                <div class="position-absolute w-100 hover-layer text-start">
                                     <ul>
                                         <li> <a href="./product-detail.php" class="hover-layer-btn"> <img
                                                     class="eye-icon" src="./images/eye-icon.png" alt="">快速睇產品</a></li>
 
-                                        <li> <a href="" class="hover-layer-btn"><img class="heart-icon"
+                                        <li> <a href="" class="heart hover-layer-btn"><img class="heart-icon"
                                                     src="./images/heart-icon.png" alt="">加入好想買清單</a></li>
 
                                     </ul>
 
                                 </div>
-                                <img src="./images/product-foto-2.jpg" alt="">
-
+                                <a href="./product-detail.php"><img src="./images/product-foto-2.jpg" alt=""></a>
                             </div>
-                            <div>日本日本多啦A夢叮日本日本多啦A夢叮</div>
-                            <div class="final-price"><span class="s">$</span> <span class="b">60.00</span></div>
+                            <a href="./product-detail.php" target="_blank">
+                                <div class="product-name-2">日本日本多啦A夢叮日本日本多啦A夢叮</div>
+                                <div class="final-price"><span class="s">$</span> <span class="b">60.00</span></div>
+                            </a>
                             <a href="./cart.php" class="cart-btn-2 mt-1">
                                 <img src="./images/cart-icon2.png" alt="">
                                 加入購物車</a>
                         </div>
-                        <div class="col-lg-2 col-md-4 col-sm-4 col-4 product-div-2">
-                            <div class="text-center position-relative product-img-wrapper">
+
+                        <?php
+                        }
+                        ?>
 
 
-                                <div class="position-absolute w-100 h-100 hover-layer text-start">
-                                    <ul>
-                                        <li> <a href="./product-detail.php" class="hover-layer-btn"> <img
-                                                    class="eye-icon" src="./images/eye-icon.png" alt="">快速睇產品</a></li>
 
-                                        <li> <a href="" class="hover-layer-btn"><img class="heart-icon"
-                                                    src="./images/heart-icon.png" alt="">加入好想買清單</a></li>
-
-                                    </ul>
-
-                                </div>
-                                <img src="./images/product-foto-2.jpg" alt="">
-
-                            </div>
-                            <div>日本日本多啦A夢叮日本日本多啦A夢叮</div>
-                            <div class="final-price"><span class="s">$</span> <span class="b">60.00</span></div>
-                            <a href="./cart.php" class="cart-btn-2 mt-1"> <img src="./images/cart-icon2.png" alt="">
-                                加入購物車</a>
-                        </div>
-                        <div class="col-lg-2 col-md-4 col-sm-4 col-4 product-div-2">
-                            <div class="text-center position-relative product-img-wrapper">
-
-
-                                <div class="position-absolute w-100 h-100 hover-layer text-start">
-                                    <ul>
-                                        <li> <a href="./product-detail.php" class="hover-layer-btn"> <img
-                                                    class="eye-icon" src="./images/eye-icon.png" alt="">快速睇產品</a></li>
-
-                                        <li> <a href="" class="hover-layer-btn"><img class="heart-icon"
-                                                    src="./images/heart-icon.png" alt="">加入好想買清單</a></li>
-
-                                    </ul>
-
-                                </div>
-                                <img src="./images/product-foto-2.jpg" alt="">
-
-                            </div>
-                            <div>日本日本多啦A夢叮日本日本多啦A夢叮</div>
-                            <div class="final-price"><span class="s">$</span> <span class="b">60.00</span></div>
-                            <a href="./cart.php" class="cart-btn-2 mt-1"> <img src="./images/cart-icon2.png" alt="">
-                                加入購物車</a>
-                        </div>
-                        <div class="col-lg-2 col-md-4 col-sm-4 col-4 product-div-2">
-                            <div class="text-center position-relative product-img-wrapper">
-
-
-                                <div class="position-absolute w-100 h-100 hover-layer text-start">
-                                    <ul>
-                                        <li> <a href="./product-detail.php" class="hover-layer-btn"> <img
-                                                    class="eye-icon" src="./images/eye-icon.png" alt="">快速睇產品</a></li>
-
-                                        <li> <a href="" class="hover-layer-btn"><img class="heart-icon"
-                                                    src="./images/heart-icon.png" alt="">加入好想買清單</a></li>
-
-                                    </ul>
-
-                                </div>
-                                <img src="./images/product-foto-2.jpg" alt="">
-
-                            </div>
-                            <div>日本日本多啦A夢叮日本日本多啦A夢叮</div>
-                            <div class="final-price"><span class="s">$</span> <span class="b">60.00</span></div>
-                            <a href="./cart.php" class="cart-btn-2 mt-1"> <img src="./images/cart-icon2.png" alt="">
-                                加入購物車</a>
-                        </div>
-                        <div class="col-lg-2 col-md-4 col-sm-4 col-4 product-div-2">
-                            <div class="text-center position-relative product-img-wrapper">
-
-
-                                <div class="position-absolute w-100 h-100 hover-layer text-start">
-                                    <ul>
-                                        <li> <a href="./product-detail.php" class="hover-layer-btn"> <img
-                                                    class="eye-icon" src="./images/eye-icon.png" alt="">快速睇產品</a></li>
-
-                                        <li> <a href="" class="hover-layer-btn"><img class="heart-icon"
-                                                    src="./images/heart-icon.png" alt="">加入好想買清單</a></li>
-
-                                    </ul>
-
-                                </div>
-                                <img src="./images/product-foto-2.jpg" alt="">
-
-                            </div>
-                            <div>日本日本多啦A夢叮日本日本多啦A夢叮</div>
-                            <div class="final-price"><span class="s">$</span> <span class="b">60.00</span></div>
-                            <a href="./cart.php" class="cart-btn-2 mt-1"> <img src="./images/cart-icon2.png" alt="">
-                                加入購物車</a>
-                        </div>
-                        <div class="col-lg-2 col-md-4 col-sm-4 col-4 product-div-2">
-                            <div class="text-center position-relative product-img-wrapper">
-
-
-                                <div class="position-absolute w-100 h-100 hover-layer text-start">
-                                    <ul>
-                                        <li> <a href="./product-detail.php" class="hover-layer-btn"> <img
-                                                    class="eye-icon" src="./images/eye-icon.png" alt="">快速睇產品</a></li>
-
-                                        <li> <a href="" class="hover-layer-btn"><img class="heart-icon"
-                                                    src="./images/heart-icon.png" alt="">加入好想買清單</a></li>
-
-                                    </ul>
-
-                                </div>
-                                <img src="./images/product-foto-2.jpg" alt="">
-
-                            </div>
-                            <div>日本日本多啦A夢叮日本日本多啦A夢叮</div>
-                            <div class="final-price"><span class="s">$</span> <span class="b">60.00</span></div>
-                            <a href="./cart.php" class="cart-btn-2 mt-1"> <img src="./images/cart-icon2.png" alt="">
-                                加入購物車</a>
-                        </div>
                     </div>
                 </li>
 
@@ -454,8 +261,8 @@ include('header.php');
 
 
 
-        <div class="want-to-buy-div mt-5 green-border">
-            <div class="want-to-buy-title ">
+        <div class="want-to-buy-div green-border">
+            <a href="./snoopy.php" class="want-to-buy-title ">
 
                 <div class="want-to-buy-title-txt">
                     <span class="fw-bold">好想買</span>的日本零食
@@ -463,157 +270,56 @@ include('header.php');
                 <div class="cate-foto-2-div">
                     <img class="cate-foto-2" src="./images/cate-foto-2.jpg" alt="">
                 </div>
-            </div>
+            </a>
 
         </div>
         <div class="want-to-buy-row green-border">
 
             <ul>
                 <li>
-                    <img class="want-to-buy-product-img" src="./images/cate-foto-1.jpg" alt="">
+                    <a href="./snoopy.php"><img class="want-to-buy-product-img" src="./images/cate-foto-1.jpg"
+                            alt=""></a>
                 </li>
 
                 <li class="right-div">
                     <div class="row">
 
+
+                        <?php 
+                        
+                        for($i=0;$i<6;$i++)
+                        {
+                            ?>
                         <div class="col-lg-2 col-md-4 col-sm-4 col-4 product-div-2">
                             <div class="text-center position-relative product-img-wrapper">
 
-
-                                <div class="position-absolute w-100 h-100 hover-layer text-start">
+                                <div class="position-absolute w-100 hover-layer text-start">
                                     <ul>
                                         <li> <a href="./product-detail.php" class="hover-layer-btn"> <img
                                                     class="eye-icon" src="./images/eye-icon.png" alt="">快速睇產品</a></li>
 
-                                        <li> <a href="" class="hover-layer-btn"><img class="heart-icon"
+                                        <li> <a href="" class="heart hover-layer-btn"><img class="heart-icon"
                                                     src="./images/heart-icon.png" alt="">加入好想買清單</a></li>
 
                                     </ul>
 
                                 </div>
-                                <img src="./images/product-foto-2.jpg" alt="">
+                                <a href="./product-detail.php"><img src="./images/product-foto-2.jpg" alt=""></a>
 
                             </div>
-                            <div>日本日本多啦A夢叮日本日本多啦A夢叮</div>
-                            <div class="final-price"><span class="s">$</span> <span class="b">60.00</span></div>
-                            <a href="./cart.php" class="cart-btn-2 mt-1"> <img src="./images/cart-icon2.png" alt="">
+                            <a href="./product-detail.php" target="_blank">
+                                <div class="product-name-2">日本日本多啦A夢叮日本日本多啦A夢叮</div>
+                                <div class="final-price"><span class="s">$</span> <span class="b">60.00</span></div>
+                            </a>
+                            <a href="./cart.php" class="cart-btn-2 mt-1">
+                                <img src="./images/cart-icon2.png" alt="">
                                 加入購物車</a>
                         </div>
-                        <div class="col-lg-2 col-md-4 col-sm-4 col-4 product-div-2">
-                            <div class="text-center position-relative product-img-wrapper">
 
+                        <?php
+                        }
+                        ?>
 
-                                <div class="position-absolute w-100 h-100 hover-layer text-start">
-                                    <ul>
-                                        <li> <a href="./product-detail.php" class="hover-layer-btn"> <img
-                                                    class="eye-icon" src="./images/eye-icon.png" alt="">快速睇產品</a></li>
-
-                                        <li> <a href="" class="hover-layer-btn"><img class="heart-icon"
-                                                    src="./images/heart-icon.png" alt="">加入好想買清單</a></li>
-
-                                    </ul>
-
-                                </div>
-                                <img src="./images/product-foto-2.jpg" alt="">
-
-                            </div>
-                            <div>日本日本多啦A夢叮日本日本多啦A夢叮</div>
-                            <div class="final-price"><span class="s">$</span> <span class="b">60.00</span></div>
-                            <a href="./cart.php" class="cart-btn-2 mt-1"> <img src="./images/cart-icon2.png" alt="">
-                                加入購物車</a>
-                        </div>
-                        <div class="col-lg-2 col-md-4 col-sm-4 col-4 product-div-2">
-                            <div class="text-center position-relative product-img-wrapper">
-
-
-                                <div class="position-absolute w-100 h-100 hover-layer text-start">
-                                    <ul>
-                                        <li> <a href="./product-detail.php" class="hover-layer-btn"> <img
-                                                    class="eye-icon" src="./images/eye-icon.png" alt="">快速睇產品</a></li>
-
-                                        <li> <a href="" class="hover-layer-btn"><img class="heart-icon"
-                                                    src="./images/heart-icon.png" alt="">加入好想買清單</a></li>
-
-                                    </ul>
-
-                                </div>
-                                <img src="./images/product-foto-2.jpg" alt="">
-
-                            </div>
-                            <div>日本日本多啦A夢叮日本日本多啦A夢叮</div>
-                            <div class="final-price"><span class="s">$</span> <span class="b">60.00</span></div>
-                            <a href="./cart.php" class="cart-btn-2 mt-1"> <img src="./images/cart-icon2.png" alt="">
-                                加入購物車</a>
-                        </div>
-                        <div class="col-lg-2 col-md-4 col-sm-4 col-4 product-div-2">
-                            <div class="text-center position-relative product-img-wrapper">
-
-
-                                <div class="position-absolute w-100 h-100 hover-layer text-start">
-                                    <ul>
-                                        <li> <a href="./product-detail.php" class="hover-layer-btn"> <img
-                                                    class="eye-icon" src="./images/eye-icon.png" alt="">快速睇產品</a></li>
-
-                                        <li> <a href="" class="hover-layer-btn"><img class="heart-icon"
-                                                    src="./images/heart-icon.png" alt="">加入好想買清單</a></li>
-
-                                    </ul>
-
-                                </div>
-                                <img src="./images/product-foto-2.jpg" alt="">
-
-                            </div>
-                            <div>日本日本多啦A夢叮日本日本多啦A夢叮</div>
-                            <div class="final-price"><span class="s">$</span> <span class="b">60.00</span></div>
-                            <a href="./cart.php" class="cart-btn-2 mt-1"> <img src="./images/cart-icon2.png" alt="">
-                                加入購物車</a>
-                        </div>
-                        <div class="col-lg-2 col-md-4 col-sm-4 col-4 product-div-2">
-                            <div class="text-center position-relative product-img-wrapper">
-
-
-                                <div class="position-absolute w-100 h-100 hover-layer text-start">
-                                    <ul>
-                                        <li> <a href="./product-detail.php" class="hover-layer-btn"> <img
-                                                    class="eye-icon" src="./images/eye-icon.png" alt="">快速睇產品</a></li>
-
-                                        <li> <a href="" class="hover-layer-btn"><img class="heart-icon"
-                                                    src="./images/heart-icon.png" alt="">加入好想買清單</a></li>
-
-                                    </ul>
-
-                                </div>
-                                <img src="./images/product-foto-2.jpg" alt="">
-
-                            </div>
-                            <div>日本日本多啦A夢叮日本日本多啦A夢叮</div>
-                            <div class="final-price"><span class="s">$</span> <span class="b">60.00</span></div>
-                            <a href="./cart.php" class="cart-btn-2 mt-1"> <img src="./images/cart-icon2.png" alt="">
-                                加入購物車</a>
-                        </div>
-                        <div class="col-lg-2 col-md-4 col-sm-4 col-4 product-div-2">
-                            <div class="text-center position-relative product-img-wrapper">
-
-
-                                <div class="position-absolute w-100 h-100 hover-layer text-start">
-                                    <ul>
-                                        <li> <a href="./product-detail.php" class="hover-layer-btn"> <img
-                                                    class="eye-icon" src="./images/eye-icon.png" alt="">快速睇產品</a></li>
-
-                                        <li> <a href="" class="hover-layer-btn"><img class="heart-icon"
-                                                    src="./images/heart-icon.png" alt="">加入好想買清單</a></li>
-
-                                    </ul>
-
-                                </div>
-                                <img src="./images/product-foto-2.jpg" alt="">
-
-                            </div>
-                            <div>日本日本多啦A夢叮日本日本多啦A夢叮</div>
-                            <div class="final-price"><span class="s">$</span> <span class="b">60.00</span></div>
-                            <a href="./cart.php" class="cart-btn-2 mt-1"> <img src="./images/cart-icon2.png" alt="">
-                                加入購物車</a>
-                        </div>
                     </div>
                 </li>
 
@@ -627,8 +333,8 @@ include('header.php');
 
 
 
-        <div class="want-to-buy-div mt-5 blue-border">
-            <div class="want-to-buy-title ">
+        <div class="want-to-buy-div blue-border">
+            <a href="./snoopy.php" class="want-to-buy-title ">
 
                 <div class="want-to-buy-title-txt">
                     <span class="fw-bold">好想買</span>的日本零食
@@ -636,157 +342,56 @@ include('header.php');
                 <div class="cate-foto-2-div">
                     <img class="cate-foto-2" src="./images/cate-foto-2.jpg" alt="">
                 </div>
-            </div>
+            </a>
 
         </div>
         <div class="want-to-buy-row blue-border">
 
             <ul>
                 <li>
-                    <img class="want-to-buy-product-img" src="./images/cate-foto-1.jpg" alt="">
+                    <a href="./snoopy.php"><img class="want-to-buy-product-img" src="./images/cate-foto-1.jpg"
+                            alt=""></a>
                 </li>
 
                 <li class="right-div">
                     <div class="row">
 
+                        <?php 
+                        
+                        for($i=0;$i<6;$i++)
+                        {
+                            ?>
                         <div class="col-lg-2 col-md-4 col-sm-4 col-4 product-div-2">
                             <div class="text-center position-relative product-img-wrapper">
 
 
-                                <div class="position-absolute w-100 h-100 hover-layer text-start">
+                                <div class="position-absolute w-100 hover-layer text-start">
                                     <ul>
                                         <li> <a href="./product-detail.php" class="hover-layer-btn"> <img
                                                     class="eye-icon" src="./images/eye-icon.png" alt="">快速睇產品</a></li>
 
-                                        <li> <a href="" class="hover-layer-btn"><img class="heart-icon"
+                                        <li> <a href="" class="heart hover-layer-btn"><img class="heart-icon"
                                                     src="./images/heart-icon.png" alt="">加入好想買清單</a></li>
 
                                     </ul>
 
                                 </div>
-                                <img src="./images/product-foto-2.jpg" alt="">
+                                <a href="./product-detail.php"> <img src="./images/product-foto-2.jpg" alt=""></a>
 
                             </div>
-                            <div>日本日本多啦A夢叮日本日本多啦A夢叮</div>
-                            <div class="final-price"><span class="s">$</span> <span class="b">60.00</span></div>
-                            <a href="./cart.php" class="cart-btn-2 mt-1"> <img src="./images/cart-icon2.png" alt="">
+                            <a href="./product-detail.php" target="_blank">
+                                <div class="product-name-2">日本日本多啦A夢叮日本日本多啦A夢叮</div>
+                                <div class="final-price"><span class="s">$</span> <span class="b">60.00</span></div>
+                            </a>
+                            <a href="./cart.php" class="cart-btn-2 mt-1">
+                                <img src="./images/cart-icon2.png" alt="">
                                 加入購物車</a>
                         </div>
-                        <div class="col-lg-2 col-md-4 col-sm-4 col-4 product-div-2">
-                            <div class="text-center position-relative product-img-wrapper">
 
+                        <?php
+                        }
+                        ?>
 
-                                <div class="position-absolute w-100 h-100 hover-layer text-start">
-                                    <ul>
-                                        <li> <a href="./product-detail.php" class="hover-layer-btn"> <img
-                                                    class="eye-icon" src="./images/eye-icon.png" alt="">快速睇產品</a></li>
-
-                                        <li> <a href="" class="hover-layer-btn"><img class="heart-icon"
-                                                    src="./images/heart-icon.png" alt="">加入好想買清單</a></li>
-
-                                    </ul>
-
-                                </div>
-                                <img src="./images/product-foto-2.jpg" alt="">
-
-                            </div>
-                            <div>日本日本多啦A夢叮日本日本多啦A夢叮</div>
-                            <div class="final-price"><span class="s">$</span> <span class="b">60.00</span></div>
-                            <a href="./cart.php" class="cart-btn-2 mt-1"> <img src="./images/cart-icon2.png" alt="">
-                                加入購物車</a>
-                        </div>
-                        <div class="col-lg-2 col-md-4 col-sm-4 col-4 product-div-2">
-                            <div class="text-center position-relative product-img-wrapper">
-
-
-                                <div class="position-absolute w-100 h-100 hover-layer text-start">
-                                    <ul>
-                                        <li> <a href="./product-detail.php" class="hover-layer-btn"> <img
-                                                    class="eye-icon" src="./images/eye-icon.png" alt="">快速睇產品</a></li>
-
-                                        <li> <a href="" class="hover-layer-btn"><img class="heart-icon"
-                                                    src="./images/heart-icon.png" alt="">加入好想買清單</a></li>
-
-                                    </ul>
-
-                                </div>
-                                <img src="./images/product-foto-2.jpg" alt="">
-
-                            </div>
-                            <div>日本日本多啦A夢叮日本日本多啦A夢叮</div>
-                            <div class="final-price"><span class="s">$</span> <span class="b">60.00</span></div>
-                            <a href="./cart.php" class="cart-btn-2 mt-1"> <img src="./images/cart-icon2.png" alt="">
-                                加入購物車</a>
-                        </div>
-                        <div class="col-lg-2 col-md-4 col-sm-4 col-4 product-div-2">
-                            <div class="text-center position-relative product-img-wrapper">
-
-
-                                <div class="position-absolute w-100 h-100 hover-layer text-start">
-                                    <ul>
-                                        <li> <a href="./product-detail.php" class="hover-layer-btn"> <img
-                                                    class="eye-icon" src="./images/eye-icon.png" alt="">快速睇產品</a></li>
-
-                                        <li> <a href="" class="hover-layer-btn"><img class="heart-icon"
-                                                    src="./images/heart-icon.png" alt="">加入好想買清單</a></li>
-
-                                    </ul>
-
-                                </div>
-                                <img src="./images/product-foto-2.jpg" alt="">
-
-                            </div>
-                            <div>日本日本多啦A夢叮日本日本多啦A夢叮</div>
-                            <div class="final-price"><span class="s">$</span> <span class="b">60.00</span></div>
-                            <a href="./cart.php" class="cart-btn-2 mt-1"><img src="./images/cart-icon2.png" alt="">
-                                加入購物車</a>
-                        </div>
-                        <div class="col-lg-2 col-md-4 col-sm-4 col-4 product-div-2">
-                            <div class="text-center position-relative product-img-wrapper">
-
-
-                                <div class="position-absolute w-100 h-100 hover-layer text-start">
-                                    <ul>
-                                        <li> <a href="./product-detail.php" class="hover-layer-btn"> <img
-                                                    class="eye-icon" src="./images/eye-icon.png" alt="">快速睇產品</a></li>
-
-                                        <li> <a href="" class="hover-layer-btn"><img class="heart-icon"
-                                                    src="./images/heart-icon.png" alt="">加入好想買清單</a></li>
-
-                                    </ul>
-
-                                </div>
-                                <img src="./images/product-foto-2.jpg" alt="">
-
-                            </div>
-                            <div>日本日本多啦A夢叮日本日本多啦A夢叮</div>
-                            <div class="final-price"><span class="s">$</span> <span class="b">60.00</span></div>
-                            <a href="./cart.php" class="cart-btn-2 mt-1"> <img src="./images/cart-icon2.png" alt="">
-                                加入購物車</a>
-                        </div>
-                        <div class="col-lg-2 col-md-4 col-sm-4 col-4 product-div-2">
-                            <div class="text-center position-relative product-img-wrapper">
-
-
-                                <div class="position-absolute w-100 h-100 hover-layer text-start">
-                                    <ul>
-                                        <li> <a href="./product-detail.php" class="hover-layer-btn"> <img
-                                                    class="eye-icon" src="./images/eye-icon.png" alt="">快速睇產品</a></li>
-
-                                        <li> <a href="" class="hover-layer-btn"><img class="heart-icon"
-                                                    src="./images/heart-icon.png" alt="">加入好想買清單</a></li>
-
-                                    </ul>
-
-                                </div>
-                                <img src="./images/product-foto-2.jpg" alt="">
-
-                            </div>
-                            <div>日本日本多啦A夢叮日本日本多啦A夢叮</div>
-                            <div class="final-price"><span class="s">$</span> <span class="b">60.00</span></div>
-                            <a href="./cart.php" class="cart-btn-2 mt-1"> <img src="./images/cart-icon2.png" alt="">
-                                加入購物車</a>
-                        </div>
                     </div>
                 </li>
 
@@ -871,6 +476,21 @@ $(function() {
         $('.enlarge-video-div').fadeOut(0);
 
 
+    });
+
+
+
+    $('.banner-container').slick({
+        dots: true,
+        arrows: false,
+        pauseOnFocus: false,
+        infinite: true,
+        speed: 800,
+        autoplaySpeed: 5000,
+        autoplay: true,
+        // fade: true,
+        cssEase: 'ease-out',
+        pauseOnHover: false
     });
 
 

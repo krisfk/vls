@@ -25,7 +25,7 @@
 
                     </div>
 
-                    <a href="#" class="cart-delivery-address-a  mt-1">
+                    <a href="javascript:void(0)" class="cart-delivery-address-a  mt-1">
                         <table class="cart-delivery-address-div">
                             <tr>
                                 <td class="circle-td">
@@ -43,14 +43,14 @@
 
                     <div class="row mt-4">
                         <div class="col-12">選擇其他地址 </div>
-                        <!-- <div class="col-6 text-end"><a href="#"> > 更新送貨地址或收貨人等資料</a></div> -->
+                        <!-- <div class="col-6 text-end"><a href="javascript:void(0)"> > 更新送貨地址或收貨人等資料</a></div> -->
 
 
                     </div>
                     <div class="row">
 
                         <div class="col-lg-6 col-md-6 col-sm-12 col-12 mb-3">
-                            <a href="#" class="cart-delivery-address-a mt-1 active">
+                            <a href="javascript:void(0)" class="cart-delivery-address-a mt-1 active">
                                 <table class="cart-delivery-address-div">
                                     <tr>
                                         <td class="circle-td">
@@ -67,7 +67,7 @@
 
                         </div>
                         <div class="col-lg-6 col-md-6 col-sm-12 col-12 mb-3">
-                            <a href="#" class="cart-delivery-address-a mt-1">
+                            <a href="javascript:void(0)" class="cart-delivery-address-a mt-1">
                                 <table class="cart-delivery-address-div">
                                     <tr>
                                         <td class="circle-td">
@@ -84,7 +84,7 @@
 
                         </div>
                         <div class="col-lg-6 col-md-6 col-sm-12 col-12 mb-3">
-                            <a href="#" class="cart-delivery-address-a mt-1">
+                            <a href="javascript:void(0)" class="cart-delivery-address-a mt-1">
                                 <table class="cart-delivery-address-div">
                                     <tr>
                                         <td class="circle-td">
@@ -101,7 +101,7 @@
 
                         </div>
                         <div class="col-lg-6 col-md-6 col-sm-12 col-12 mb-3">
-                            <a href="#" class="cart-delivery-address-a mt-1">
+                            <a href="javascript:void(0)" class="cart-delivery-address-a mt-1">
                                 <table class="cart-delivery-address-div">
                                     <tr>
                                         <td class="circle-td">
@@ -136,16 +136,16 @@
                             <tbody>
                                 <tr>
                                     <td>產品總額</td>
-                                    <td class="text-end">$599.9</td>
+                                    <td class="text-end">$599.99</td>
                                 </tr>
                                 <tr>
                                     <td>運費</td>
-                                    <td class="text-end">$50</td>
+                                    <td class="text-end">$50.00</td>
                                 </tr>
 
                                 <tr>
                                     <td>已輸入優惠碼折扣</td>
-                                    <td class="text-end">- HK$50</td>
+                                    <td class="text-end">- HK$50.00</td>
                                 </tr>
                             </tbody>
                         </table>
@@ -154,7 +154,7 @@
                             <tbody>
                                 <tr>
                                     <td>合共</td>
-                                    <td class="text-end">$599.9</td>
+                                    <td class="text-end">$599.99</td>
                                 </tr>
                             </tbody>
                         </table>
@@ -250,7 +250,7 @@
 
                     </div>
 
-                    <a href="#" class=" want cart-btn mt-3">確認付款</a>
+                    <a href="javascript:void(0)" class=" want cart-btn mt-3">確認付款</a>
 
                     <div class="mt-3 small text-center">本人點擊「確認付款」，即代表本人已同意本人的購買將受 一般條款及細則 及 私隱政策 的約束。</div>
 

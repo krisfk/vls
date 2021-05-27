@@ -12,14 +12,14 @@
             </div>
             <div class="row mt-0">
                 <div class="col-6">共有 172 產品</div>
-                <div class="col-6 text-end"> <a href="#" class="share-cart-a">分享購物車清單 <img class="share-cart-icon"
+                <div class="col-6 text-end"> <a href="javascript:void(0)" class="share-cart-a">分享購物車清單 <img class="share-cart-icon"
                             src="./images/share-cart-icon.png" alt=""></a> </div>
             </div>
 
-            <div class="row cart-product-list mt-3 g-5">
+            <div class="row cart-product-list mt-3 g-lg-5 g-md-5 g-sm-5 g-0 ">
 
 
-                <div class="col-lg-8 col-md-12 col-sm-12 col-12">
+                <div class="col-lg-8 col-md-12 col-sm-12 col-12 mt-3">
 
                     <?php for($i=0;$i<3;$i++) {?>
                     <ul class="mb-3">
@@ -43,12 +43,12 @@
                             <span class="mobile-hide"> 價格</span>
                             <div class="price-desktop-position">
                                 <div class="price-div">
-                                    <div class="old-price mt-2">$799.9</div>
-                                    <div class="final-price">$599.9</div>
+                                    <div class="old-price mt-2">$799.99</div>
+                                    <div class="final-price">$599.99</div>
                                     <ul class="p-0 m-0 mobile-icon-ul">
-                                        <li class="d-inline-block"> <a href="#"> <img src="./images/heart.png"
+                                        <li class="d-inline-block"> <a href="javascript:void(0)"> <img src="./images/heart.png"
                                                     alt=""></a></li>
-                                        <li class="d-inline-block"> <a href="#"> <img src="./images/bin-btn.png"
+                                        <li class="d-inline-block"> <a href="javascript:void(0)"> <img src="./images/bin-btn.png"
                                                     alt=""></a>
                                         </li>
                                     </ul>
@@ -69,7 +69,7 @@
                                                 + </td>
                                         </tr>
                                     </table>
-                                    <a href="#" class="reset-cal-btn ">重新計算</a>
+                                    <!-- <a href="javascript:void(0)" class="reset-cal-btn ">重新計算</a> -->
                                 </div>
                             </div>
 
@@ -79,24 +79,27 @@
                         <li class="text-center subtotal-li">
                             小計
                             <div class="mt-2">
-                                $599.9</div>
+                                $599.99</div>
                         </li>
 
                         <li class="position-relative more-dot-btn-a-wrapper-li">
                             <div class="more-dot-btn-a-wrapper">
                                 <div class="white-bg"></div>
 
-                                <a href="#" class="more-dot-btn-a">
+                                <a href="javascript:void(0)" class="more-dot-btn-a">
                                 </a>
                                 <ul>
                                     <li><a href="./favorite.php"> 移到好想買清單</a></li>
-                                    <li><a href="#">刪除</a></li>
+                                    <li><a href="javascript:void(0)">刪除</a></li>
                                 </ul>
                             </div>
                         </li>
                     </ul>
                     <?php 
                     }?>
+                    <ul class="float-end">
+                        <li><a href="javascript:void(0)" class="reset-cal-btn ">重新計算</a></li>
+                    </ul>
                 </div>
                 <div class="col-lg-4 col-md-12 col-sm-12 col-12 ">
 
@@ -107,26 +110,34 @@
 
                         <table class="w-100">
                             <tr>
-                                <td>產品總額</td>
-                                <td class="text-end">$599.9</td>
+                                <td class="order-information-div-col-1">產品總額</td>
+                                <td class="text-end">$599.99</td>
                             </tr>
                             <tr>
                                 <td>運費</td>
-                                <td class="text-end">$50</td>
+                                <td class="text-end">$50.00</td>
                             </tr>
+                            <tr>
+                                <td colspan="2">尚餘$20.00免運</td>
+                            </tr>
+
+
+
+
+
                             <tr>
                                 <td class="align-top">
                                     <label for="coupon-code">優惠碼</label>
                                 </td>
                                 <td class="text-end">
-                                    <input type="text" id="coupon-code" class="form-control d-inline-block w-75">
-                                    <a href="#" class="d-inline-block use-coupon-btn w-auto">使用</a>
+                                    <input type="text" id="coupon-code" class="form-control d-inline-block w-50">
+                                    <a href="javascript:void(0)" class="d-inline-block use-coupon-btn w-auto">使用</a>
                                     <div class="error">優惠碼輸入無效</div>
                                 </td>
                             </tr>
                             <tr>
                                 <td>已輸入優惠碼折扣</td>
-                                <td class="text-end">- $50</td>
+                                <td class="text-end">- $50.00</td>
                             </tr>
                         </table>
 
@@ -134,7 +145,7 @@
                         <table class="w-100">
                             <tr>
                                 <td>合共</td>
-                                <td class="text-end">$599.9</td>
+                                <td class="text-end">$599.99</td>
                             </tr>
                         </table>
 
@@ -167,11 +178,11 @@
 
                     <div class="text-center mt-3">
 
-                        <a href="#" class="social-a">
+                        <a href="javascript:void(0)" class="social-a">
                             <img src="./images/yellow-fb-icon.png" alt=""></a>
-                        <a href="#" class="social-a">
+                        <a href="javascript:void(0)" class="social-a">
                             <img src="./images/yellow-wts-icon.png" alt=""></a>
-                        <a href="#" class="social-a">
+                        <a href="javascript:void(0)" class="social-a">
                             <img src="./images/yellow-email-icon.png" alt=""></a>
 
                     </div>

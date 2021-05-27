@@ -11,7 +11,7 @@
                 <div class="col-lg-3 col-md-12 col-sm-12 col-12 profile-side-menu">
                     <?php include('profile-side-menu.php');?>
                 </div>
-                <div class="col-lg-9 col-md-12 col-sm-12 col-12 mt-5 profile-content-div">
+                <div class="col-lg-9 col-md-12 col-sm-12 col-12 mt-3 profile-content-div">
                     <div class="profile-subpage-title">帳戶資料</div>
 
                     <div class="mt-4 form-wrapper ms-0 me-0">
@@ -74,7 +74,7 @@
                                 <div class="col-lg-10 col-md-10 col-sm-12 col-12 ">
 
                                     <input type="text" class="form-control d-inline-block ver-code  " value="99999999">
-                                    <a href="#" class="form-button w-auto d-inline-block ps-3 pe-3">發送驗証短訊</a>
+                                    <a href="javascript:void(0)" class="form-button w-auto d-inline-block ps-3 pe-3">發送驗証短訊</a>
                                     <div class="note">請輸入驗證短訊所示的一次性驗證碼</div>
                                 </div>
 
@@ -85,7 +85,7 @@
                                 </div>
                                 <div class="col-lg-10 col-md-10 col-sm-12 col-12 ">
 
-                                    <a href="#" class="form-button mt-4">更新</a>
+                                    <a href="javascript:void(0)" class="form-button mt-4">更新</a>
                                 </div>
 
 
