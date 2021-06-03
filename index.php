@@ -106,14 +106,14 @@ include('header.php');
                     </div>
                 </div>
 
-                <div class="ribbon-subtitle mt-3 text-center fw-bold position-relative mt-5">
+                <a href="./snoopy.php" class="ribbon-subtitle mt-3 text-center fw-bold position-relative mt-5">
                     <img class="subtitle-left-ribbon" src="./images/subtitle-left-ribbon.png" alt="">
 
                     好想買史路比奇幻世界
                     <img class="subtitle-right-ribbon" src="./images/subtitle-right-ribbon.png" alt="">
-                </div>
+                </a>
 
-                <div class="row mt-5">
+                <div class="row mt-5 gx-lg-2 gx-md-2 gx-sm-2 gx-2 ">
 
 
                     <?php for($i=0;$i<4;$i++)
@@ -126,12 +126,13 @@ include('header.php');
 
                                 <div class="position-absolute w-100 hover-layer text-start">
                                     <ul>
-                                        <li> <a href="./product-detail.php" class="hover-layer-btn"> <img
+                                        <li> <a href="javascript:void(0)" class="hover-layer-btn quick-view"> <img
                                                     class="eye-icon" src="./images/eye-icon.png" alt="">快速睇產品</a></li>
 
                                         <li> <a href="" class="heart hover-layer-btn"><img class="heart-icon"
                                                     src="./images/heart-icon.png" alt="">加入好想買清單</a></li>
-
+                                        <li class="hover-layer-product-detail-btn"><a href="./product-detail.php"></a>
+                                        </li>
                                     </ul>
 
                                 </div>
@@ -159,7 +160,8 @@ include('header.php');
                                         class="s">.99</span></div>
                             </a>
 
-                            <a href="./cart.php" class="cart-btn mt-3"> <img src="./images/cart-icon2.png" alt="">
+                            <a href="javascript
+:void(0)" class="cart-btn add mt-3"> <img src="./images/cart-icon2.png" alt="">
                                 加入購物車</a>
                         </div>
                     </div>
@@ -210,7 +212,7 @@ include('header.php');
                 </li>
 
                 <li class="right-div">
-                    <div class="row">
+                    <div class="row gx-lg-4 gx-md-3 gx-sm-3 gx-2  ">
 
 
                         <?php 
@@ -224,7 +226,7 @@ include('header.php');
 
                                 <div class="position-absolute w-100 hover-layer text-start">
                                     <ul>
-                                        <li> <a href="./product-detail.php" class="hover-layer-btn"> <img
+                                        <li> <a href="javascript:void(0)" class="hover-layer-btn quick-view"> <img
                                                     class="eye-icon" src="./images/eye-icon.png" alt="">快速睇產品</a></li>
 
                                         <li> <a href="" class="heart hover-layer-btn"><img class="heart-icon"
@@ -239,7 +241,8 @@ include('header.php');
                                 <div class="product-name-2">日本日本多啦A夢叮日本日本多啦A夢叮</div>
                                 <div class="final-price"><span class="s">$</span> <span class="b">60.00</span></div>
                             </a>
-                            <a href="./cart.php" class="cart-btn-2 mt-1">
+                            <a href="javascript
+:void(0)" class="cart-btn-2 add mt-1">
                                 <img src="./images/cart-icon2.png" alt="">
                                 加入購物車</a>
                         </div>
@@ -282,7 +285,7 @@ include('header.php');
                 </li>
 
                 <li class="right-div">
-                    <div class="row">
+                    <div class="row gx-lg-4 gx-md-3 gx-sm-3 gx-2  ">
 
 
                         <?php 
@@ -295,7 +298,7 @@ include('header.php');
 
                                 <div class="position-absolute w-100 hover-layer text-start">
                                     <ul>
-                                        <li> <a href="./product-detail.php" class="hover-layer-btn"> <img
+                                        <li> <a href="javascript:void(0)" class="hover-layer-btn quick-view"> <img
                                                     class="eye-icon" src="./images/eye-icon.png" alt="">快速睇產品</a></li>
 
                                         <li> <a href="" class="heart hover-layer-btn"><img class="heart-icon"
@@ -311,7 +314,8 @@ include('header.php');
                                 <div class="product-name-2">日本日本多啦A夢叮日本日本多啦A夢叮</div>
                                 <div class="final-price"><span class="s">$</span> <span class="b">60.00</span></div>
                             </a>
-                            <a href="./cart.php" class="cart-btn-2 mt-1">
+                            <a href="javascript
+:void(0)" class="cart-btn-2 add mt-1">
                                 <img src="./images/cart-icon2.png" alt="">
                                 加入購物車</a>
                         </div>
@@ -354,7 +358,7 @@ include('header.php');
                 </li>
 
                 <li class="right-div">
-                    <div class="row">
+                    <div class="row gx-lg-4 gx-md-3 gx-sm-3 gx-2  ">
 
                         <?php 
                         
@@ -367,7 +371,7 @@ include('header.php');
 
                                 <div class="position-absolute w-100 hover-layer text-start">
                                     <ul>
-                                        <li> <a href="./product-detail.php" class="hover-layer-btn"> <img
+                                        <li> <a href="javascript:void(0)" class="hover-layer-btn quick-view"> <img
                                                     class="eye-icon" src="./images/eye-icon.png" alt="">快速睇產品</a></li>
 
                                         <li> <a href="" class="heart hover-layer-btn"><img class="heart-icon"
@@ -383,7 +387,8 @@ include('header.php');
                                 <div class="product-name-2">日本日本多啦A夢叮日本日本多啦A夢叮</div>
                                 <div class="final-price"><span class="s">$</span> <span class="b">60.00</span></div>
                             </a>
-                            <a href="./cart.php" class="cart-btn-2 mt-1">
+                            <a href="javascript
+:void(0)" class="cart-btn-2 add mt-1">
                                 <img src="./images/cart-icon2.png" alt="">
                                 加入購物車</a>
                         </div>
@@ -485,14 +490,21 @@ $(function() {
         arrows: false,
         pauseOnFocus: false,
         infinite: true,
+        adaptiveHeight: true,
+
         speed: 800,
         autoplaySpeed: 5000,
         autoplay: true,
         // fade: true,
-        cssEase: 'ease-out',
-        pauseOnHover: false
+        cssEase: 'ease-out'
+        // pauseOnHover: false
     });
 
+    $(window).resize(function() {
+        // alert(6)
+        // $('.banner-container').slick('resize')
+
+    })
 
 
 

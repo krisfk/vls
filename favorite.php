@@ -36,7 +36,7 @@
 
                     </div>
                     <ul class="product-list-ul product-list-ul-col5">
-                        <?php for($i=0;$i<30;$i++)
+                        <?php for($i=0;$i<36;$i++)
             {?>
                         <li class="mb-4 product-li">
 
@@ -46,10 +46,10 @@
                                 <input class="form-check-input" type="checkbox" value="" id="">
 
                                 <div class="float-end small-icon-div">
-                                    <a href="javascript:void(0)" class="yellow-share-icon-a"> <img class="yellow-share-icon"
-                                            src="./images/yellow-share-icon.png" alt=""></a>
-                                    <a href="javascript:void(0)" class="bin-btn-a"> <img class="bin-btn" src="./images/bin-btn.png"
-                                            alt=""></a>
+                                    <a href="javascript:void(0)" class="yellow-share-icon-a"> <img
+                                            class="yellow-share-icon" src="./images/yellow-share-icon.png" alt=""></a>
+                                    <a href="javascript:void(0)" class="bin-btn-a"> <img class="bin-btn"
+                                            src="./images/bin-btn.png" alt=""></a>
 
                                 </div>
                                 <div class="mobile-table-div">
@@ -59,9 +59,7 @@
 
                                         <img class="product-img w-100" src="./images/product-foto-1.jpg" alt="">
 
-                                        <a href="javascript:void(0)" class="mobile cart-btn mt-3"> <img
-                                                src="./images/cart-icon2.png" alt="">
-                                            加入購物車</a>
+
 
                                     </div>
 
@@ -83,11 +81,15 @@
                                         </div>
                                         <div class="limited-quantity  mt-1">日本限量版1000件</div>
                                         <div class="old-price price  mt-1">HK$79.99</div>
+
+                                        <a href="./cart.php" class="mobile cart-btn add mt-3"> <img
+                                                src="./images/cart-icon2.png" alt="">
+                                            加入購物車</a>
                                         <div class="final-price"><span class="s">$</span><span
                                                 class="b">9999</span><span class="s">.99</span></div>
                                     </div>
                                 </div>
-                                <a href="javascript:void(0)" class="cart-btn mt-3"> <img src="./images/cart-icon2.png"
+                                <a href="./cart.php" class="add cart-btn mt-3"> <img src="./images/cart-icon2.png"
                                         alt="">
                                     加入購物車</a>
                             </div>
@@ -115,6 +117,10 @@
         display: none;
     }
 
+    .categories-div-wrapper {
+        display: none
+    }
+
     .desktop-product-img-col {
         display: none;
 
@@ -122,7 +128,7 @@
 
     .breadcrumb {
         display: block;
-        margin: 50px 0 0 0 !important;
+        margin: 0px 0 0 0 !important;
     }
 
 
@@ -130,6 +136,22 @@
 </style>
 <script type="text/javascript">
 $(function() {
+    position_mobile_cart_btn()
+
+    function position_mobile_cart_btn() {
+        var w = ($('.product-img-wrapper').width() - $('.favorite-content-div .cart-btn.mobile')
+            .width()) / 2;
+        console.log(w)
+        $('.favorite-content-div .cart-btn.mobile').css({
+            'left': w + 'px'
+        })
+    }
+    $(window).resize(function() {
+        position_mobile_cart_btn()
+        // console.log(4342)
+
+        // $('.product-img-wrapper')
+    })
 
     $('.check-fav-option').click(function() {
 

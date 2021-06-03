@@ -79,90 +79,91 @@
                             </div>
                         </div>
 
-                        <button href="javascript:void(0)" class="form-button mt-3 pt-3 pb-3">新增地址</button>
+                        <button href="javascript:void(0)"
+                            class="form-button mt-3 pt-3 pb-3 new-address-btn">新增地址</button>
 
-                        <div class="mt-5">
+                        <!-- <div class="mt-5"> -->
 
-                            <div class="new-address-container pb-5">
-                                <div class="color-bar">
-
-                                </div>
-
-                                <div class="new-address-title mt-3 mb-3">新增送貨地址
-                                    <a href="javascript:void(0)" class="close-btn"></a>
-
-                                </div>
-                                <form action="">
-
-                                    <div class="row new-address-form">
-                                        <div class="col-lg-3 col-md-3 col-sm-12 col-12 ">
-                                            <label for="">
-                                                姓名 <span class="small">
-                                                    (跟身份証相同)</span></label>
-
-                                        </div>
-                                        <div class="col-lg-9 col-md-9 col-sm-12 col-12 ">
-
-                                            <div class="row">
-                                                <div class="col">
-                                                    <input type="text" class="form-control w-100 d-inline-block me-2 "
-                                                        value="陳大文">
-                                                </div>
-                                                <div class="col">
-                                                    <div class="gender-list-div">
-                                                        <a href="javascript:void(0)" class="gender-button active">先生</a>
-                                                        <a href="javascript:void(0)" class="gender-button">小姐</a>
-                                                        <a href="javascript:void(0)" class="gender-button">女士</a>
-                                                    </div>
-                                                </div>
-
-                                            </div>
-
-
-
-
-                                        </div>
-
-                                        <div class="col-lg-3 col-md-3 col-sm-12 col-12"> <label for="">
-                                                地址</label></div>
-                                        <div class="col-lg-9 col-md-9 col-sm-12 col-12 ">
-                                            <select class="form-select" aria-label="">
-                                                <option selected>九龍</option>
-                                                <option value="1">One</option>
-                                                <option value="2">Two</option>
-                                                <option value="3">Three</option>
-                                            </select>
-
-                                            <select class="form-select mt-2" aria-label="">
-                                                <option selected>觀塘</option>
-                                                <option value="1">One</option>
-                                                <option value="2">Two</option>
-                                                <option value="3">Three</option>
-                                            </select>
-                                        </div>
-
-                                        <div class="col-lg-3 col-md-3 col-sm-12 col-12"></div>
-                                        <div class="col-lg-9 col-md-9 col-sm-12 col-12 "><input type="text"
-                                                class="form-control" value="鴻圖道28號 麗港城2期16座23樓C"></div>
-                                        <div class="col-lg-3 col-md-3 col-sm-12 col-12"><label for=""> 電郵</label></div>
-                                        <div class="col-lg-9 col-md-9 col-sm-12 col-12 "><input type="text"
-                                                class="form-control" value="diamond.chan@gmail.com"></div>
-
-                                        <div class="col-lg-3 col-md-3 col-sm-12 col-12"><label for=""> 電話號碼</label>
-                                        </div>
-                                        <div class="col-lg-9 col-md-9 col-sm-12 col-12 "><input type="text"
-                                                class="form-control" value="94140523"></div>
-                                        <div class="col-lg-3 col-md-3 col-sm-12 col-12"></div>
-                                        <div class="col-lg-9 col-md-9 col-sm-12 col-12 ">
-                                            <button class="form-button mt-3">新增/更新</button>
-
-                                        </div>
-                                    </div>
-
-                                </form>
+                        <div class="new-address-container overlay-container pb-5">
+                            <div class="color-bar">
 
                             </div>
+
+                            <div class="new-address-title mt-3 mb-3">新增送貨地址
+                                <a href="javascript:void(0)" class="close-btn"></a>
+
+                            </div>
+                            <form action="">
+
+                                <div class="row new-address-form">
+                                    <div class="col-lg-3 col-md-3 col-sm-12 col-12 ">
+                                        <label for="">
+                                            姓名 <span class="small">
+                                                (跟身份証相同)</span></label>
+
+                                    </div>
+                                    <div class="col-lg-9 col-md-9 col-sm-12 col-12 ">
+
+                                        <div class="row">
+                                            <div class="col-5">
+                                                <input type="text" class="form-control w-100 d-inline-block me-2 "
+                                                    value="陳大文">
+                                            </div>
+                                            <div class="col-7 gx-0">
+                                                <div class="gender-list-div">
+                                                    <a href="javascript:void(0)" class="gender-button active">先生</a>
+                                                    <a href="javascript:void(0)" class="gender-button">小姐</a>
+                                                    <a href="javascript:void(0)" class="gender-button">女士</a>
+                                                </div>
+                                            </div>
+
+                                        </div>
+
+
+
+
+                                    </div>
+
+                                    <div class="col-lg-3 col-md-3 col-sm-12 col-12"> <label for="">
+                                            地址</label></div>
+                                    <div class="col-lg-9 col-md-9 col-sm-12 col-12 ">
+                                        <select class="form-select" aria-label="">
+                                            <option selected>九龍</option>
+                                            <option value="1">One</option>
+                                            <option value="2">Two</option>
+                                            <option value="3">Three</option>
+                                        </select>
+
+                                        <select class="form-select mt-2" aria-label="">
+                                            <option selected>觀塘</option>
+                                            <option value="1">One</option>
+                                            <option value="2">Two</option>
+                                            <option value="3">Three</option>
+                                        </select>
+                                    </div>
+
+                                    <div class="col-lg-3 col-md-3 col-sm-12 col-12"></div>
+                                    <div class="col-lg-9 col-md-9 col-sm-12 col-12 "><input type="text"
+                                            class="form-control" value="鴻圖道28號 麗港城2期16座23樓C"></div>
+                                    <div class="col-lg-3 col-md-3 col-sm-12 col-12"><label for=""> 電郵</label></div>
+                                    <div class="col-lg-9 col-md-9 col-sm-12 col-12 "><input type="text"
+                                            class="form-control" value="diamond.chan@gmail.com"></div>
+
+                                    <div class="col-lg-3 col-md-3 col-sm-12 col-12"><label for=""> 電話號碼</label>
+                                    </div>
+                                    <div class="col-lg-9 col-md-9 col-sm-12 col-12 "><input type="text"
+                                            class="form-control" value="94140523"></div>
+                                    <div class="col-lg-3 col-md-3 col-sm-12 col-12"></div>
+                                    <div class="col-lg-9 col-md-9 col-sm-12 col-12 ">
+                                        <button class="form-button mt-3">新增/更新</button>
+
+                                    </div>
+                                </div>
+
+                            </form>
+
                         </div>
+                        <!-- </div> -->
 
                     </div>
 
@@ -177,13 +178,13 @@
 </div>
 
 <style type="text/css">
-.categories-div {
+/* .categories-div-wrapper {
     display: none;
 }
 
 .middle-content {
     margin: 0;
-}
+} */
 </style>
 <script type="text/javascript">
 $(function() {

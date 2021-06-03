@@ -8,21 +8,56 @@ include('header.php');
 
 
 
+    <div class="container mt-lg-4 mt-md-0 mt-sm-0 mt-0 market-banner-video-container">
+
+
+        <div class="row market-banner-video-row gx-lg-4 gx-md-4 gx-sm-1 gx-1 ">
+
+            <div class="col-lg-8 col-md-12 col-sm-12 col-12 ps-0 market-banner-div">
+                <a href="./snoopy.php" class="d-table">
+                    <img class="w-100" src="./images/banner.jpg" alt="">
+                </a>
+            </div>
+            <div
+                class="col-lg-4 col-md-10 col-sm-12 col-12 mt-lg-0 mt-md-3 mt-sm-3 mt-3  pe-0 position-relative market-video-div">
+
+                <div class="position-relative">
+                    <img class="w-100" src="./images/dummy-video.jpg" alt="">
+                    <video playsinline id="vls-video-3" name="videojs" class="video-js vls-video-3" controls
+                        preload="auto" width="640" height="264" poster="MY_VIDEO_POSTER.jpg" data-setup="{}">
+                        <source src="https://vjs.zencdn.net/v/oceans.mp4" type="video/mp4" />
+                        <p class="vjs-no-js">
+                            To view this video please enable JavaScript, and consider upgrading
+                            to a
+                            web browser that
+                            <a href="https://videojs.com/html5-video-support/" target="_blank">supports
+                                HTML5 video</a>
+                        </p>
+                    </video>
+                </div>
+            </div>
+        </div>
+    </div>
+
 
 
     <div class="container g-0">
 
 
-        <div class="breadcrumb mt-4 mb-4"><a href="./"><img class="reg-icon" src="./images/reg-icon.png" alt=""> <span
-                    class="m-0 home-txt"> 好想買嘢
-                    VLoveShopping</span></a>
-            <span class="arrow">></span>
-            <span>
-                史努比的奇幻世界</span>
+        <div class="row">
+            <div class="col-12 gx-5">
+                <div class="breadcrumb mt-4 mb-4"><a href="./"><img class="reg-icon" src="./images/reg-icon.png" alt="">
+                        <span class="m-0 home-txt"> 好想買嘢
+                            VLoveShopping</span></a>
+                    <span class="arrow">></span>
+                    <span>
+                        史努比的奇幻世界</span>
+                </div>
+            </div>
         </div>
 
-        <div class="row mt-3 g-0">
-            <div class="col-lg-6 col-md-6 col-sm-6 col-6 show-items-div">顯示 30 of 250</div>
+        <div class="row mt-0">
+            <div class="col-lg-6 gx-5 col-md-6 col-sm-6 col-6 show-items-div">顯示 30 of 250</div>
             <div class="col-lg-6 col-md-12 col-sm-12 col-12 text-end">
 
                 <select class="product-list-sort-select form-select w-auto d-inline-block">
@@ -57,7 +92,7 @@ include('header.php');
 
 
         <ul class="product-list-ul product-list-ul-col6">
-            <?php for($i=0;$i<30;$i++)
+            <?php for($i=0;$i<36;$i++)
             {?>
             <li class="mb-5 product-li">
                 <div class="product-div-1">
@@ -67,8 +102,8 @@ include('header.php');
 
                         <div class="position-absolute w-100 h-100 hover-layer text-start">
                             <ul>
-                                <li> <a href="./product-detail.php" class="hover-layer-btn"> <img class="eye-icon"
-                                            src="./images/eye-icon.png" alt="">快速睇產品</a></li>
+                                <li> <a href="javascript:void(0)" class="hover-layer-btn quick-view"> <img
+                                            class="eye-icon" src="./images/eye-icon.png" alt="">快速睇產品</a></li>
 
                                 <li> <a href="./favorite.php" class="hover-layer-btn heart"><img class="heart-icon"
                                             src="./images/heart-icon.png" alt="">加入好想買清單</a></li>
@@ -102,7 +137,7 @@ include('header.php');
                         <div class="final-price"><span class="s">$</span><span class="b">9999</span><span
                                 class="s">.99</span></div>
                     </a>
-                    <a href="./cart.php" class="cart-btn mt-3"> <img src="./images/cart-icon2.png" alt="">
+                    <a href="javascript:void(0)" class="cart-btn add mt-3"> <img src="./images/cart-icon2.png" alt="">
                         加入購物車</a>
                 </div>
 
@@ -181,7 +216,7 @@ for($i=0;$i<1;$i++)
 
                                     <div class="position-absolute w-100 h-100 hover-layer text-start">
                                         <ul>
-                                            <li> <a href="./product-detail.php" class="hover-layer-btn"> <img
+                                            <li> <a href="javascript:void(0)" class="hover-layer-btn quick-view"> <img
                                                         class="eye-icon" src="./images/eye-icon.png" alt="">快速睇產品</a>
                                             </li>
 
@@ -201,7 +236,7 @@ for($i=0;$i<1;$i++)
                                     <div class="product-name-2">日本日本多啦A夢叮日本日本多啦A夢叮</div>
                                     <div class="final-price"><span class="s">$</span> <span class="b">60.00</span></div>
                                 </a>
-                                <a href="" class="cart-btn-2 mt-1">
+                                <a href="javascript:void(0)" class="cart-btn-2 add mt-1">
                                     <img src="./images/cart-icon2.png" alt="">
                                     加入購物車</a>
                             </div>
@@ -256,7 +291,7 @@ for($i=0;$i<1;$i++)
 
                                     <div class="position-absolute w-100 h-100 hover-layer text-start">
                                         <ul>
-                                            <li> <a href="./product-detail.php" class="hover-layer-btn"> <img
+                                            <li> <a href="javascript:void(0)" class="hover-layer-btn quick-view"> <img
                                                         class="eye-icon" src="./images/eye-icon.png" alt="">快速睇產品</a>
                                             </li>
 
@@ -275,7 +310,7 @@ for($i=0;$i<1;$i++)
                                     <div class="product-name-2">日本日本多啦A夢叮日本日本多啦A夢叮</div>
                                     <div class="final-price"><span class="s">$</span> <span class="b">60.00</span></div>
                                 </a>
-                                <a href="" class="cart-btn-2 mt-1">
+                                <a href="javascript:void(0)" class="cart-btn-2 add mt-1">
                                     <img src="./images/cart-icon2.png" alt="">
                                     加入購物車</a>
                             </div>
@@ -329,7 +364,7 @@ for($i=0;$i<1;$i++)
 
                                     <div class="position-absolute w-100 h-100 hover-layer text-start">
                                         <ul>
-                                            <li> <a href="./product-detail.php" class="hover-layer-btn"> <img
+                                            <li> <a href="javascript:void(0)" class="hover-layer-btn quick-view"> <img
                                                         class="eye-icon" src="./images/eye-icon.png" alt="">快速睇產品</a>
                                             </li>
 
@@ -349,7 +384,7 @@ for($i=0;$i<1;$i++)
                                     <div class="product-name-2">日本日本多啦A夢叮日本日本多啦A夢叮</div>
                                     <div class="final-price"><span class="s">$</span> <span class="b">60.00</span></div>
                                 </a>
-                                <a href="" class="cart-btn-2 mt-1">
+                                <a href="javascript:void(0)" class="cart-btn-2 add mt-1">
                                     <img src="./images/cart-icon2.png" alt="">
                                     加入購物車</a>
                             </div>
@@ -396,26 +431,36 @@ for($i=0;$i<1;$i++)
 .breadcrumb {
     display: block;
 }
+
+@media (max-width: 991px) {
+    .categories-div-wrapper {
+        display: none
+    }
+
+    .black-line {
+        display: none
+    }
+}
 </style>
 <script type="text/javascript">
-init_play_btn();
-$(window).resize(function() {
+// init_play_btn();
+// $(window).resize(function() {
 
-    init_play_btn();
+//     init_play_btn();
 
-})
+// })
 
-function init_play_btn() {
-    var t = ($('.vls-video-3').height() - $('.vjs-big-play-button').height()) / 2;
-    var l = ($('.vls-video-3').width() - $('.vjs-big-play-button').width()) / 2;
-    $('.vls-video-3 .vjs-big-play-button').css({
-        'top': t + 'px'
-    });
-    $('.vls-video-3 .vjs-big-play-button').css({
-        'left': l + 'px'
-    });
+// function init_play_btn() {
+//     var t = ($('.vls-video-3').height() - $('.vjs-big-play-button').height()) / 2;
+//     var l = ($('.vls-video-3').width() - $('.vjs-big-play-button').width()) / 2;
+//     $('.vls-video-3 .vjs-big-play-button').css({
+//         'top': t + 'px'
+//     });
+//     $('.vls-video-3 .vjs-big-play-button').css({
+//         'left': l + 'px'
+//     });
 
-}
+// }
 </script>
 <?php
 include('footer.php');

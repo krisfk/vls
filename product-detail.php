@@ -26,7 +26,12 @@
             </div>
 
 
-            <h1 class="product-name">日本市集 - 日版榛子朱古力夾心酥餅禮盒 (1盒7件)</h1>
+            <h1 class="product-name d-inline-block">日本市集 - 日版榛子朱古力夾心酥餅禮盒 (1盒7件)
+
+
+            </h1>
+            <span class="mobile-less-quantity-label less-quantity-label d-inline-block position-relative">尚餘少量</span>
+
 
             <ul class="category-tag p-0">
                 <li class="d-inline-block"><a href="javascript:void(0)"> 零食甜品</a></li>
@@ -81,11 +86,30 @@
                     <span class="less-quantity-label">尚餘少量</span>
 
 
-                    <table class="product-detail-table mt-5">
+                    <table class="product-detail-table mt-5 ">
 
                         <tr>
-                            <td></td>
-                            <td class="p-0">
+                            <!-- <td></td> -->
+                            <td colspan="2" class="product-set">1盒6塊</td>
+                        </tr>
+                        <tr>
+                            <td class="att pt-1" colspan="2">好想買指數：<div class="pt-div"><img class="pt"
+                                        src="./images/green-pt.png" alt=""> <img class="pt" src="./images/green-pt.png"
+                                        alt=""> <img class="pt" src="./images/green-pt.png" alt=""> <img class="pt"
+                                        src="./images/green-pt.png" alt="">
+                                    <img class="pt" src="./images/grey-pt.png" alt="">
+                                </div>
+                            </td>
+
+                        </tr>
+                        <tr>
+
+                            <td colspan="2" class="limited-quantity pt-1">日本限量1000件</td>
+                        </tr>
+
+                        <tr>
+                            <!-- <td></td> -->
+                            <td colspan="2" class="pt-3">
 
                                 <div class="old-price"> HK$79.99
                                 </div>
@@ -94,24 +118,15 @@
                             </td>
                         </tr>
                         <tr>
-                            <td class="att align-middle"> 特價</td>
-                            <td>
+                            <!-- <td class="att align-middle"> 特價</td> -->
+                            <td colspan="2" class="pb-3">
                                 <div>
                                     <div class="final-price"><span class="s">$</span><span class="b">9999</span><span
                                             class="s">.99</span></div>
                                 </div>
                             </td>
                         </tr>
-                        <tr>
-                            <td class="att">好想買指數</td>
-                            <td>
-                                <div class="pt-div"><img class="pt" src="./images/green-pt.png" alt=""> <img class="pt"
-                                        src="./images/green-pt.png" alt=""> <img class="pt" src="./images/green-pt.png"
-                                        alt=""> <img class="pt" src="./images/green-pt.png" alt="">
-                                    <img class="pt" src="./images/grey-pt.png" alt="">
-                                </div>
-                            </td>
-                        </tr>
+
                         <tr>
                             <td class="att">產品特色 </td>
                             <td>百年工藝 地區食材限定！</td>
@@ -122,12 +137,12 @@
                                 優惠期及數量有限，售完即止。</td>
                         </tr>
                         <tr>
-                            <td class="att">產品簡介 </td>
-                            <td>
+                            <td class="att pt-3">產品簡介 </td>
+                            <td class="pt-3">
 
-                                345克 <br> <br>
+                                345克 <br>
 
-                                日本<br><br>
+                                日本<br>
 
                                 杏仁70克 X 2包<br>
                                 腰果70克 X 2包<br>
@@ -136,8 +151,8 @@
                             </td>
                         </tr>
                         <tr>
-                            <td>數量</td>
-                            <td>
+                            <td class="pt-3">數量</td>
+                            <td class="pt-3">
 
                                 <table class="quantity-ui">
                                     <tr>
@@ -153,7 +168,7 @@
                         </tr>
                     </table>
 
-                    <a href="" class="cart-btn mt-3"> <img src="./images/cart-icon2.png" alt="">
+                    <a href="./cart.php" class="cart-btn add  mt-3"> <img src="./images/cart-icon2.png" alt="">
                         加入購物車</a>
 
                     <a href="./favorite.php" class="want cart-btn mt-3"><img class="heart-icon"
@@ -216,7 +231,7 @@
 </div>
 <style type="text/css">
 @media (max-width: 991px) {
-    .categories-div {
+    .categories-div-wrapper {
         display: none;
     }
 
@@ -227,7 +242,7 @@
 
     .breadcrumb {
         display: block;
-        margin: 50px 0 0 0 !important;
+        margin: 0px 0 0 0 !important;
     }
 
 

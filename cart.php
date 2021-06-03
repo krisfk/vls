@@ -12,8 +12,8 @@
             </div>
             <div class="row mt-0">
                 <div class="col-6">共有 172 產品</div>
-                <div class="col-6 text-end"> <a href="javascript:void(0)" class="share-cart-a">分享購物車清單 <img class="share-cart-icon"
-                            src="./images/share-cart-icon.png" alt=""></a> </div>
+                <div class="col-6 text-end"> <a href="javascript:void(0)" class="share-cart-a">分享購物車清單 <img
+                            class="share-cart-icon" src="./images/share-cart-icon.png" alt=""></a> </div>
             </div>
 
             <div class="row cart-product-list mt-3 g-lg-5 g-md-5 g-sm-5 g-0 ">
@@ -25,7 +25,7 @@
                     <ul class="mb-3">
                         <li><img class="product-foto" src="./images/product-foto-1.jpg" alt=""></li>
                         <li class="product-name-li">
-                            日版 多啦A夢 叮噹造型曲奇餅禮盒（1盒6塊) <br> 日版 多啦A夢 叮噹造型曲奇餅禮盒（1盒6塊）
+                            日版 多啦A夢 叮噹造型曲奇餅禮盒（1盒6塊)
 
                             <div class="row">
                                 <div class="col-6 quantity-ui-mobile-position">
@@ -46,10 +46,10 @@
                                     <div class="old-price mt-2">$799.99</div>
                                     <div class="final-price">$599.99</div>
                                     <ul class="p-0 m-0 mobile-icon-ul">
-                                        <li class="d-inline-block"> <a href="javascript:void(0)"> <img src="./images/heart.png"
-                                                    alt=""></a></li>
-                                        <li class="d-inline-block"> <a href="javascript:void(0)"> <img src="./images/bin-btn.png"
-                                                    alt=""></a>
+                                        <li class="d-inline-block"> <a href="javascript:void(0)"> <img
+                                                    src="./images/heart.png" alt=""></a></li>
+                                        <li class="d-inline-block"> <a href="javascript:void(0)"> <img
+                                                    src="./images/bin-btn.png" alt=""></a>
                                         </li>
                                     </ul>
                                 </div>
@@ -84,11 +84,13 @@
 
                         <li class="position-relative more-dot-btn-a-wrapper-li">
                             <div class="more-dot-btn-a-wrapper">
-                                <div class="white-bg"></div>
 
                                 <a href="javascript:void(0)" class="more-dot-btn-a">
                                 </a>
                                 <ul>
+                                    <li class="white-bg-li">
+                                        <!-- <div class="white-bg"></div> -->
+                                    </li>
                                     <li><a href="./favorite.php"> 移到好想買清單</a></li>
                                     <li><a href="javascript:void(0)">刪除</a></li>
                                 </ul>
@@ -156,39 +158,39 @@
             </div>
 
 
-            <div class="mt-5">
+            <!-- <div class="mt-5"> -->
 
-                <div class="share-cart-container pb-5">
-                    <div class="color-bar">
-
-                    </div>
-
-                    <div class="new-address-title mt-3 mb-3">分享購物清單
-                        <a href="javascript:void(0)" class="close-btn"></a>
-                    </div>
-
-
-
-
-                    <form action="">
-                        <div>分享購物清單並讓其他人可以添加商品至他們的購物車</div>
-                        <input type="text" class="form-control text-center mt-1" value="www.vloveshopping.hk/2sTv6">
-                    </form>
-
-
-                    <div class="text-center mt-3">
-
-                        <a href="javascript:void(0)" class="social-a">
-                            <img src="./images/yellow-fb-icon.png" alt=""></a>
-                        <a href="javascript:void(0)" class="social-a">
-                            <img src="./images/yellow-wts-icon.png" alt=""></a>
-                        <a href="javascript:void(0)" class="social-a">
-                            <img src="./images/yellow-email-icon.png" alt=""></a>
-
-                    </div>
+            <div class="share-cart-container pb-5 overlay-container">
+                <div class="color-bar">
 
                 </div>
+
+                <div class="new-address-title mt-3 mb-3">分享購物清單
+                    <a href="javascript:void(0)" class="close-btn"></a>
+                </div>
+
+
+
+
+                <form action="">
+                    <div>分享購物清單並讓其他人可以添加商品至他們的購物車</div>
+                    <input type="text" class="form-control text-center mt-1" value="www.vloveshopping.hk/2sTv6">
+                </form>
+
+
+                <div class="text-center mt-3">
+
+                    <a href="javascript:void(0)" class="social-a">
+                        <img src="./images/yellow-fb-icon.png" alt=""></a>
+                    <a href="javascript:void(0)" class="social-a">
+                        <img src="./images/yellow-wts-icon.png" alt=""></a>
+                    <a href="javascript:void(0)" class="social-a">
+                        <img src="./images/yellow-email-icon.png" alt=""></a>
+
+                </div>
+
             </div>
+            <!-- </div> -->
 
         </div>
 
@@ -200,7 +202,7 @@
 </div>
 <style type="text/css">
 @media (max-width: 1200px) {
-    .categories-div {
+    .categories-div-wrapper {
         display: none
     }
 
@@ -242,48 +244,98 @@ $(function() {
     })
 
     $('.more-dot-btn-a').mouseenter(function() {
-        $(this).css({
-            'border': '1px solid #000'
-        })
+        // $(this).css({
+        //     'border': '1px solid #000'
+        // })
+        // $(this).prev('.white-bg').css({
+        //     'background': '#fff'
+        // })
+        // $(this).css({
+        //     'background-color': '#fff'
+        // });
 
         $(this).next('ul').fadeIn(0)
 
     })
     $('.more-dot-btn-a').mouseleave(function() {
-        $('.more-dot-btn-a-wrapper ul').fadeOut(0, function() {
 
-        });
+        // $(this)
+        //     .delay(200)
+        //     .queue(function(next) {
+        //         $(this).prev('.white-bg').css({
+        //             'background': 'transparent'
+        //         })
+        //         $(this).css({
+        //             'background-color': 'transparent'
+        //         });
+        //         next();
+        //     })
 
-        $('.more-dot-btn-a').css({
-            'border': 'none'
-        })
+
+        // $('.more-dot-btn-a-wrapper ul').fadeOut(0, function() {
+
+
+        // });
+
+        // $('.more-dot-btn-a').css({
+        //     'border': 'none'
+        // })
+    })
+
+    $('.more-dot-btn-a-wrapper').mouseleave(function() {
+        // alert(4)
+        $(this).find('ul').fadeOut(0)
+        // .more-dot-btn-a-wrapper ul
+
     })
 
     $('.more-dot-btn-a-wrapper ul').mouseleave(function() {
-        $(this).fadeOut(0);
-        $('.more-dot-btn-a').css({
-            'border': 'none'
-        })
+        // alert(5)
+        // $(this).fadeOut(0);
+        // $('.more-dot-btn-a').css({
+        //     'border': 'none'
+        // })
+
+        // $(this).prev().prev('.white-bg').css({
+        //     'background': 'transparent'
+        // })
+        // $(this).prev('.more-dot-btn-a').css({
+        //     'background-color': 'transparent'
+        // });
     })
 
     $('.more-dot-btn-a-wrapper .white-bg').mouseenter(function() {
-
-        $(this).next().next('.more-dot-btn-a-wrapper ul').stop().fadeIn(0);
+        // 
+        // $(this).next().next('.more-dot-btn-a-wrapper ul').stop().fadeIn(0);
         // $('.more-dot-btn-a-wrapper ul').stop().fadeIn(0);
 
 
-        $(this).next('a').css({
-            'border': '1px solid #000'
-        })
+        // $(this).next('a').css({
+        //     'border': '1px solid #000'
+        // })
 
 
     })
 
     $('.more-dot-btn-a-wrapper ul').mouseenter(function() {
-        $(this).stop().fadeIn(0);
-        $(this).prev('.more-dot-btn-a').css({
-            'border': '1px solid #000'
-        })
+        // alert(6)
+
+        // $(this).stop().fadeIn(0);
+        // $(this).prev('.more-dot-btn-a').clearQueue().stop().css({
+        //     'border': '1px solid #000',
+        //     'background-color': '#fff'
+
+        // })
+
+        // $(this).prev().prev('.white-bg').css({
+        //     'background': '#fff'
+        // })
+        // $(this).prev('a').css({
+        //     'background-color': '#fff'
+        // });
+
+
+
     })
 
 })

@@ -135,7 +135,7 @@ include('header.php');
     <div class="container mt-lg-4 mt-md-0 mt-sm-0 mt-0 market-banner-video-container">
 
 
-        <div class="row market-banner-video-row">
+        <div class="row market-banner-video-row gx-lg-4 gx-md-4 gx-sm-1 gx-1 ">
 
             <div class="col-lg-8 col-md-12 col-sm-12 col-12 ps-0 market-banner-div">
                 <a href="./snoopy.php" class="d-table">
@@ -143,7 +143,7 @@ include('header.php');
                 </a>
             </div>
             <div
-                class="col-lg-4 col-md-10 col-sm-10 col-10 mt-lg-0 mt-md-3 mt-sm-3 mt-3  pe-0 position-relative market-video-div">
+                class="col-lg-4 col-md-10 col-sm-12 col-12 mt-lg-0 mt-md-3 mt-sm-3 mt-3  pe-0 position-relative market-video-div">
 
                 <div class="position-relative">
                     <img class="w-100" src="./images/dummy-video.jpg" alt="">
@@ -175,7 +175,7 @@ include('header.php');
 
 
         <div class="row mt-3 g-0">
-            <div class="col-6 show-items-div">顯示 30 of 250</div>
+            <div class="col-6 show-items-div gx-4">顯示 30 of 250</div>
             <div class="col-lg-6 col-md-12 col-sm-12 col-12 text-end"> <select
                     class="product-list-sort-select form-select w-auto d-inline-block">
                     <option selected>好想買指數</option>
@@ -208,7 +208,7 @@ include('header.php');
 
 
         <ul class="product-list-ul product-list-ul-col6">
-            <?php for($i=0;$i<30;$i++)
+            <?php for($i=0;$i<36;$i++)
             {?>
             <li class="mb-5 product-li">
                 <div class="product-div-1">
@@ -218,8 +218,8 @@ include('header.php');
 
                         <div class="position-absolute w-100 h-100 hover-layer text-start">
                             <ul>
-                                <li> <a href="./product-detail.php" class="hover-layer-btn"> <img class="eye-icon"
-                                            src="./images/eye-icon.png" alt="">快速睇產品</a></li>
+                                <li> <a href="javascript:void(0)" class="hover-layer-btn quick-view"> <img
+                                            class="eye-icon" src="./images/eye-icon.png" alt="">快速睇產品</a></li>
 
                                 <li> <a href="./favorite.php" class="heart hover-layer-btn"><img class="heart-icon"
                                             src="./images/heart-icon.png" alt="">加入好想買清單</a></li>
@@ -254,7 +254,7 @@ include('header.php');
                                 class="s">.99</span></div>
                     </a>
 
-                    <a href="./cart.php" class="cart-btn mt-3"> <img src="./images/cart-icon2.png" alt="">
+                    <a href="javascript:void(0)" class="cart-btn add mt-3"> <img src="./images/cart-icon2.png" alt="">
                         加入購物車</a>
                 </div>
 
@@ -263,7 +263,8 @@ include('header.php');
         </ul>
 
         <div class="row mt-3 g-0">
-            <div class="col-lg-3 col-md-4 col-sm-12 col-12   show-items-div bottom-show-items-div">顯示 30 of 250</div>
+            <div class="col-lg-3 col-md-4 col-sm-12 col-12   show-items-div bottom-show-items-div gx-4">顯示 30 of 250
+            </div>
             <div class="col-lg-6 col-md-8 col-sm-12 col-12">
 
                 <div class="pagination">
@@ -327,24 +328,24 @@ include('header.php');
 }
 </style>
 <script type="text/javascript">
-init_play_btn();
-$(window).resize(function() {
+// init_play_btn();
+// $(window).resize(function() {
 
-    init_play_btn();
+//     init_play_btn();
 
-})
+// })
 
-function init_play_btn() {
-    var t = ($('.vls-video-3').height() - $('.vjs-big-play-button').height()) / 2;
-    var l = ($('.vls-video-3').width() - $('.vjs-big-play-button').width()) / 2;
-    $('.vls-video-3 .vjs-big-play-button').css({
-        'top': t + 'px'
-    });
-    $('.vls-video-3 .vjs-big-play-button').css({
-        'left': l + 'px'
-    });
+// function init_play_btn() {
+//     var t = ($('.vls-video-3').height() - $('.vjs-big-play-button').height()) / 2;
+//     var l = ($('.vls-video-3').width() - $('.vjs-big-play-button').width()) / 2;
+//     $('.vls-video-3 .vjs-big-play-button').css({
+//         'top': t + 'px'
+//     });
+//     $('.vls-video-3 .vjs-big-play-button').css({
+//         'left': l + 'px'
+//     });
 
-}
+// }
 </script>
 <?php
 include('footer.php');
