@@ -380,14 +380,14 @@ $(function() {
 
     $(window).scroll(function() {
         var scroll = $(window).scrollTop();
-        console.log(
-            scroll +
-            ' ' +
-            ($('.middle-container').height() -
-                $('.categories-div-wrapper').height() -
-                $('.top-menu-div').height() -
-                $('.footer-div').height())
-        );
+        // console.log(
+        //     scroll +
+        //     ' ' +
+        //     ($('.middle-container').height() -
+        //         $('.categories-div-wrapper').height() -
+        //         $('.top-menu-div').height() -
+        //         $('.footer-div').height())
+        // );
         if (
             scroll >
             $('.middle-container').height() -
