@@ -431,6 +431,7 @@ include('header.php');
 <script type="text/javascript">
 $(function() {
 
+    alert(5);
     resize_action()
 
     var myPlayer = videojs('vls-video-1');
