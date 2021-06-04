@@ -534,14 +534,11 @@ $(function() {
 
     $(window).resize(function() {
 
-        if (!$('.enlarge-video-div').hasClass('fullscreen')) {
 
+        if (!isAndroid) {
 
-
-            // myPlayer.pause();
-            // myPlayer2.pause();
+            resize_action()
         }
-        resize_action()
 
     })
 
