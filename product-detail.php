@@ -317,12 +317,17 @@ $(function() {
 
 
     var myPlayer = videojs('vls-video-1');
-    myPlayer.controlBar.pictureInPictureToggle.dispose();
-
-
 
     var myPlayer2 = videojs('vls-video-2');
-    myPlayer2.controlBar.pictureInPictureToggle.dispose();
+
+
+    var isAndroid = ua.indexOf("android") > -1; //&& ua.indexOf("mobile");
+    if (!isAndroid) {
+        myPlayer.controlBar.pictureInPictureToggle.dispose();
+        myPlayer2.controlBar.pictureInPictureToggle.dispose();
+    }
+
+
 
 
     $(window).resize(function() {

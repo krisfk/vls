@@ -354,7 +354,13 @@ include('header.php');
 $(function() {
 
     var myPlayer = videojs('vls-video-3');
-    myPlayer.controlBar.pictureInPictureToggle.dispose();
+
+    var ua = navigator.userAgent.toLowerCase();
+    var isAndroid = ua.indexOf("android") > -1; //&& ua.indexOf("mobile");
+    if (!isAndroid) {
+        myPlayer.controlBar.pictureInPictureToggle.dispose();
+    }
+
 
 
 })

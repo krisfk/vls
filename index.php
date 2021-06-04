@@ -431,7 +431,6 @@ include('header.php');
 <script type="text/javascript">
 $(function() {
 
-    alert(5);
     resize_action()
 
     var myPlayer = videojs('vls-video-1');
@@ -461,14 +460,7 @@ $(function() {
     var isAndroid = ua.indexOf("android") > -1; //&& ua.indexOf("mobile");
     if (!isAndroid) {
         myPlayer.controlBar.pictureInPictureToggle.dispose();
-
-
-        // Do something!
-        // Redirect to Android-site?
-        //   window.location = 'http://android.davidwalsh.name';
     }
-
-    // myPlayer.controlBar.pictureInPictureToggle.dispose();
 
 
     var concreteButtonInstance = myPlayer.controlBar.addChild(new concreteButtonClass());

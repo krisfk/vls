@@ -456,7 +456,14 @@ for($i=0;$i<1;$i++)
 $(function() {
 
     var myPlayer = videojs('vls-video-3');
-    myPlayer.controlBar.pictureInPictureToggle.dispose();
+
+    var isAndroid = ua.indexOf("android") > -1; //&& ua.indexOf("mobile");
+    if (!isAndroid) {
+
+        myPlayer.controlBar.pictureInPictureToggle.dispose();
+
+    }
+
 
 
 })
