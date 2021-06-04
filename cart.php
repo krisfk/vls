@@ -3,7 +3,8 @@
     <div class="middle-content">
         <div class="black-line"></div>
         <div class="container">
-            <div class="breadcrumb mt-3"><a href="./"><img class="reg-icon" src="./images/reg-icon.png" alt="">
+            <div class="breadcrumb mt-lg-3 mt-md-0 mt-sm-0 mt-0 mb-0"><a href="./"><img class="reg-icon"
+                        src="./images/reg-icon.png" alt="">
                     <span class="m-0 home-txt"> 好想買嘢
                         VLoveShopping</span></a>
                 <span class="arrow">></span>
