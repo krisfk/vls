@@ -49,7 +49,7 @@ include('header.php');
                                 </a> -->
                                 <!-- <img class="w-100" src="./images/video-img.jpg" alt=""> -->
 
-                                <video id="vls-video-1" name="videojs" class="video-js vls-video-1" controls
+                                <video playsinline id="vls-video-1" name="videojs" class="video-js vls-video-1" controls
                                     preload="auto" width="640" height="264" poster="./images/still-thumbnail.jpg"
                                     data-setup="{}">
                                     <source src="https://vjs.zencdn.net/v/oceans.mp4" type="video/mp4" />
@@ -450,14 +450,13 @@ $(function() {
             // Do your stuff
         }
     });
-    // myPlayer2.controlBar.pictureInPictureToggle.dispose();
 
 
     var concreteButtonInstance = myPlayer.controlBar.addChild(new concreteButtonClass());
     concreteButtonInstance.addClass("vjs-enlarge");
     concreteButtonInstance.addClass("vjs-fullscreen-control");
-    // myPlayer.controlBar.fullscreenToggle.dispose();
-    myPlayer.controlBar.pictureInPictureToggle.dispose();
+
+    // myPlayer.controlBar.pictureInPictureToggle.dispose();
 
 
     var concreteButtonInstance = myPlayer.controlBar.addChild(new concreteButtonClass());
