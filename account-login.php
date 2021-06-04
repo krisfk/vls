@@ -4,14 +4,15 @@
         <div class="black-line"></div>
         <div class="container">
 
-            <div class="breadcrumb mt-3"><a href="./"><img class="reg-icon" src="./images/reg-icon.png" alt=""> <a
-                        href="./" class="home-txt"> 好想買嘢 VLoveShopping</a> <span class="arrow"> > </span>
+            <div class="breadcrumb mt-lg-3 mt-md-0 mt-sm-0 mt-0 mb-0"><a href="./"><img class="reg-icon"
+                        src="./images/reg-icon.png" alt=""> <a href="./" class="home-txt"> 好想買嘢 VLoveShopping</a> <span
+                        class="arrow"> > </span>
                     <a href="javascript:void(0)" class="now-pos"> 登入</a>
             </div>
 
 
 
-            <div class="text-center pt-5">
+            <div class="text-center pt-lg-5 pt-md-3 pt-sm-3 pt-3 ">
 
                 <div class="login-form-div pb-4 pt-2 ">
 

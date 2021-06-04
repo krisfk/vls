@@ -34,7 +34,7 @@
                     <img class="dummy" src="./images/video-img.jpg" alt="">
 
                     <video playsinline id="vls-video-1" name="videojs" class="video-js vls-video-1" controls
-                        preload="auto" width="640" height="264" poster="./images/still-thumbnail.jpg" data-setup="{}">
+                        preload="auto" width="640" height="264" poster="./images/black.jpg" data-setup="{}">
                         <source src="https://vjs.zencdn.net/v/oceans.mp4" type="video/mp4" />
                         <p class="vjs-no-js">
                             To view this video please enable JavaScript, and consider upgrading to a
@@ -237,7 +237,7 @@
                             <img class="dummy" src="./images/video-img.jpg" alt="">
 
                             <video playsinline id="vls-video-2" name="videojs" class="video-js vls-video-2" controls
-                                preload="auto" width="640" height="264" poster="./images/still-thumbnail.jpg"
+                                preload="auto" width="640" height="264" poster="./images/black.jpg"
                                 data-setup="{}">
                                 <source src="https://vjs.zencdn.net/v/oceans.mp4" type="video/mp4" />
                                 <p class="vjs-no-js">

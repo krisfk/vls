@@ -3,7 +3,11 @@
     <div class="middle-content">
         <div class="black-line"></div>
         <div class="container">
-            <div class="breadcrumb mt-3"> <a href="./"> 好想買嘢 VLoveShopping</a> <span class="arrow">></span> <span>
+            <div class="breadcrumb mt-lg-3 mt-md-0 mt-sm-0 mt-0 mb-0"><a href="./"><img class="reg-icon"
+                        src="./images/reg-icon.png" alt="">
+                    <span class="m-0 home-txt"> 好想買嘢
+                        VLoveShopping</span></a>
+                <span class="arrow">></span> <span>
                     登入</span>
             </div>
 
@@ -74,7 +78,8 @@
                                 <div class="col-lg-10 col-md-10 col-sm-12 col-12 ">
 
                                     <input type="text" class="form-control d-inline-block ver-code  " value="99999999">
-                                    <a href="javascript:void(0)" class="form-button w-auto d-inline-block ps-3 pe-3">發送驗証短訊</a>
+                                    <a href="javascript:void(0)"
+                                        class="form-button w-auto d-inline-block ps-3 pe-3">發送驗証短訊</a>
                                     <div class="note">請輸入驗證短訊所示的一次性驗證碼</div>
                                 </div>
 

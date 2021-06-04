@@ -24,7 +24,7 @@ include('header.php');
                 <div class="position-relative">
                     <img class="w-100" src="./images/dummy-video.jpg" alt="">
                     <video playsinline id="vls-video-3" name="videojs" class="video-js vls-video-3" controls
-                        preload="auto" width="640" height="264" poster="./images/still-thumbnail.jpg" data-setup="{}">
+                        preload="auto" width="640" height="264" poster="./images/black.jpg" data-setup="{}">
                         <source src="https://vjs.zencdn.net/v/oceans.mp4" type="video/mp4" />
                         <p class="vjs-no-js">
                             To view this video please enable JavaScript, and consider upgrading
@@ -36,41 +36,34 @@ include('header.php');
                     </video>
                 </div>
             </div>
-        </div>
-    </div>
 
-
-
-    <div class="container g-0">
-
-
-        <div class="row">
-            <div class="col-12 gx-5">
-                <div class="breadcrumb mt-3 mb-3"><a href="./"><img class="reg-icon" src="./images/reg-icon.png" alt="">
+            <div class="col-lg-12 col-md-10 col-sm-12 col-12 mx-auto p-0">
+                <div class="breadcrumb mt-lg-3 mt-md-0 mt-sm-0 mt-0 mb-0"><a href="./"><img class="reg-icon"
+                            src="./images/reg-icon.png" alt="">
                         <span class="m-0 home-txt"> 好想買嘢
                             VLoveShopping</span></a>
                     <span class="arrow">></span>
                     <span>
-                        史努比的奇幻世界</span>
+                        未知市集</span>
                 </div>
             </div>
-        </div>
 
-        <div class="row mt-0">
-            <div class="col-lg-6 gx-5 col-md-6 col-sm-6 col-6 show-items-div">顯示 30 of 250</div>
-            <div class="col-lg-6 col-md-6 col-sm-6 col-6 text-end">
+            <div class="row g-0 justify-content-center">
 
-                <select class="product-list-sort-select form-select w-auto d-inline-block">
+                <div class="col-lg-6  col-md-5 col-sm-6 col-6 show-items-div">顯示 30 of 250</div>
+                <div class="col-lg-6 col-md-5 col-sm-6 col-6 text-end">
 
-                    <option selected>篩選</option>
+                    <select class="product-list-sort-select form-select w-auto d-inline-block">
 
-                    <option value="0">好想買指數</option>
-                    <option value="1">最新貨品</option>
-                    <option value="2">價錢(低至高)</option>
-                    <option value="3">價錢(高至低)</option>
-                </select>
+                        <option selected>篩選</option>
 
-                <!-- <ul class="p-0 m-0 text-center product-list-sort-ul ">
+                        <option value="0">好想買指數</option>
+                        <option value="1">最新貨品</option>
+                        <option value="2">價錢(低至高)</option>
+                        <option value="3">價錢(高至低)</option>
+                    </select>
+
+                    <!-- <ul class="p-0 m-0 text-center product-list-sort-ul ">
                     <li class="d-inline-block">
 
                         <a href="javascript:void(0)">好想買指數</a>
@@ -89,9 +82,26 @@ include('header.php');
                     </li>
                 </ul> -->
 
+
+
+
+
+
+                </div>
             </div>
 
         </div>
+
+
+
+    </div>
+
+
+
+    <div class="container g-0">
+
+
+
 
 
         <ul class="product-list-ul product-list-ul-col6">

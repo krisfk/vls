@@ -3,7 +3,11 @@
     <div class="middle-content">
         <div class="black-line"></div>
         <div class="container">
-            <div class="breadcrumb mt-3"> <a href="./"> 好想買嘢 VLoveShopping</a> <span class="arrow">></span> <span>
+            <div class="breadcrumb mt-lg-3 mt-md-0 mt-sm-0 mt-0 mb-0"><a href="./"><img class="reg-icon"
+                        src="./images/reg-icon.png" alt="">
+                    <span class="m-0 home-txt"> 好想買嘢
+                        VLoveShopping</span></a>
+                <span class="arrow">></span><span>
                     會員頁面</span>
             </div>
 
@@ -14,7 +18,7 @@
                 <div class="col-lg-9 col-md-12 col-sm-12 col-12 mt-3 profile-content-div">
                     <div class="profile-subpage-title">送貨地址</div>
 
-                    <div class="mt-4">
+                    <div class="mt-lg-4 mt-md-2 mt-sm-2 mt-2 ">
                         <div class="position-relative">
                             <table class="w-100">
                                 <tr>
@@ -43,7 +47,7 @@
                         </div>
                     </div>
 
-                    <div class="mt-5">
+                    <div class="mt-lg-5 mt-md-4 mt-sm-4 mt-4 ">
                         <div>
                             選擇其他地址
                         </div>

@@ -2403,7 +2403,7 @@ h1.product-name {
 .product-list-ul {
     padding: 0;
     margin: 0;
-    text-align: left;
+    text-align: center;
 }
 
 .product-list-sort-select {
@@ -2644,6 +2644,7 @@ h1.product-name {
     } */
     .product-list-ul.product-list-ul-col6 {
         margin: 10px 0 0 0;
+        text-align: center;
     }
     .sticky.categories-div-wrapper {
         display: none !important;
@@ -2739,7 +2740,7 @@ h1.product-name {
     .favorite-side-menu h1 {
         border-bottom: 1px solid;
         padding: 0 0 10px 0;
-        margin: 30px 0 20px 0;
+        margin: 10px 0 20px 0;
     }
     .profile-side-menu li.logout-li,
     .favorite-side-menu li.logout-li {
@@ -2779,7 +2780,7 @@ h1.product-name {
     }
     .product-list-sort-select {
         border: none !important;
-        margin: 0 5% 0 0;
+        margin: 0 0 0 0;
     }
     .product-list-ul li {
         width: 49% !important;
