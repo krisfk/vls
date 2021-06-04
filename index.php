@@ -456,6 +456,17 @@ $(function() {
     concreteButtonInstance.addClass("vjs-enlarge");
     concreteButtonInstance.addClass("vjs-fullscreen-control");
 
+    var ua = navigator.userAgent.toLowerCase();
+    var isAndroid = ua.indexOf("android") > -1; //&& ua.indexOf("mobile");
+    if (!isAndroid) {
+        myPlayer.controlBar.pictureInPictureToggle.dispose();
+
+
+        // Do something!
+        // Redirect to Android-site?
+        //   window.location = 'http://android.davidwalsh.name';
+    }
+
     // myPlayer.controlBar.pictureInPictureToggle.dispose();
 
 

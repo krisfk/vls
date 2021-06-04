@@ -159,7 +159,7 @@ $(function() {
     function position_mobile_cart_btn() {
         var w = ($('.product-img-wrapper').width() - $('.favorite-content-div .cart-btn.mobile')
             .width()) / 2;
-        console.log(w)
+        // console.log(w)
         $('.favorite-content-div .cart-btn.mobile').css({
             'left': w + 'px'
         })
