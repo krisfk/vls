@@ -215,7 +215,7 @@
                         </tr>
                     </table>
 
-                    <a href="./cart.php" class="cart-btn add  mt-3"> <img src="./images/cart-icon2.png" alt="">
+                    <a href="javascript:void(0);" class="cart-btn add  mt-3"> <img src="./images/cart-icon2.png" alt="">
                         加入購物車</a>
 
                     <a href="./favorite.php" class="want cart-btn mt-3"><img class="heart-icon"
@@ -237,8 +237,7 @@
                             <img class="dummy" src="./images/video-img.jpg" alt="">
 
                             <video playsinline id="vls-video-2" name="videojs" class="video-js vls-video-2" controls
-                                preload="auto" width="640" height="264" poster="./images/black.jpg"
-                                data-setup="{}">
+                                preload="auto" width="640" height="264" poster="./images/black.jpg" data-setup="{}">
                                 <source src="https://vjs.zencdn.net/v/oceans.mp4" type="video/mp4" />
                                 <p class="vjs-no-js">
                                     To view this video please enable JavaScript, and consider upgrading to a

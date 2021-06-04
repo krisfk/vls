@@ -2909,6 +2909,12 @@ h1.product-name {
     /* .product-list-ul {
         margin: 20px 0 0 0;
     } */
+    .msg-box {
+        max-width: 90% !important;
+    }
+    .form-wrapper .note {
+        margin: 10px 0 0 0;
+    }
     .profile-side-menu ul {
         width: fit-content !important;
         text-align: left;
@@ -2916,7 +2922,6 @@ h1.product-name {
         padding: 0;
         padding: 0;
         width: 100% !important;
-        0%;
     }
     .profile-side-menu li,
     .favorite-side-menu li {
