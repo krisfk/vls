@@ -145,7 +145,7 @@
 
                                 <tr>
                                     <td>已輸入優惠碼折扣</td>
-                                    <td class="text-end">- HK$50.00</td>
+                                    <td class="text-end">- $50.00</td>
                                 </tr>
                             </tbody>
                         </table>

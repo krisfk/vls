@@ -4,7 +4,7 @@
         <div class="black-line"></div>
         <div class="container">
             <div class="breadcrumb mt-3"> <a href="./"> 好想買嘢 VLoveShopping</a> <span class="arrow">></span> <span>
-                    登入</span>
+                    會員頁面</span>
             </div>
 
             <div class="row">

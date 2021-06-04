@@ -56,41 +56,59 @@
                                     <div class="text-center position-relative product-img-wrapper">
 
 
+                                        <div class="position-absolute w-100 hover-layer text-start"
+                                            style="display: none; opacity: 1; height: 242px;">
+                                            <ul>
+                                                <li> <a href="javascript:void(0)" class="hover-layer-btn quick-view"
+                                                        style="width: 152px;"> <img class="eye-icon"
+                                                            src="./images/eye-icon.png" alt="">快速睇產品</a></li>
 
-                                        <img class="product-img w-100" src="./images/product-foto-1.jpg" alt="">
+                                                <li> <a href="" class="heart hover-layer-btn" style="width: 152px;"><img
+                                                            class="heart-icon" src="./images/heart-icon.png"
+                                                            alt="">加入好想買清單</a></li>
+                                                <li class="hover-layer-product-detail-btn"><a
+                                                        href="./product-detail.php"></a>
+                                                </li>
+                                            </ul>
 
+                                        </div>
 
-
+                                        <a href="./product-detail.php">
+                                            <img class="w-100" src="./images/product-foto-1.jpg" alt="">
+                                        </a>
                                     </div>
 
                                     <div class="product-info-right">
+                                        <a href="./product-detail.php" target="_blank">
 
-                                        <div class="product-name">日版 多啦A夢 叮噹造型曲奇餅禮盒（1盒6塊）</div>
-                                        <div class="product-set mt-1">1盒6塊</div>
 
-                                        <div class="recommend-rate  mt-1">
-                                            好想買指數：
+                                            <div class="product-name">日版 多啦A夢 叮噹造型曲奇餅禮盒（1盒6塊）</div>
+                                            <div class="product-set mt-1">1盒6塊</div>
 
-                                            <div class="pt-div"><img class="pt" src="./images/green-pt.png" alt=""> <img
-                                                    class="pt" src="./images/green-pt.png" alt=""> <img class="pt"
-                                                    src="./images/green-pt.png" alt="">
-                                                <img class="pt" src="./images/green-pt.png" alt="">
-                                                <img class="pt" src="./images/grey-pt.png" alt="">
+                                            <div class="recommend-rate  mt-1">
+                                                好想買指數：
+
+                                                <div class="pt-div"><img class="pt" src="./images/green-pt.png" alt="">
+                                                    <img class="pt" src="./images/green-pt.png" alt=""> <img class="pt"
+                                                        src="./images/green-pt.png" alt="">
+                                                    <img class="pt" src="./images/green-pt.png" alt="">
+                                                    <img class="pt" src="./images/grey-pt.png" alt="">
+                                                </div>
+
                                             </div>
+                                            <div class="limited-quantity  mt-1">日本限量版1000件</div>
+                                            <div class="old-price price  mt-1">$79.99</div>
 
-                                        </div>
-                                        <div class="limited-quantity  mt-1">日本限量版1000件</div>
-                                        <div class="old-price price  mt-1">HK$79.99</div>
-
-                                        <a href="./cart.php" class="mobile cart-btn add mt-3"> <img
+                                            <div class="final-price"><span class="s">$</span><span
+                                                    class="b">9999</span><span class="s">.99</span></div>
+                                        </a>
+                                        <a href="javascript:void(0)" class="mobile cart-btn add mt-3"> <img
                                                 src="./images/cart-icon2.png" alt="">
                                             加入購物車</a>
-                                        <div class="final-price"><span class="s">$</span><span
-                                                class="b">9999</span><span class="s">.99</span></div>
                                     </div>
                                 </div>
-                                <a href="./cart.php" class="add cart-btn mt-3"> <img src="./images/cart-icon2.png"
-                                        alt="">
+                                <a href="javascript:void(0)" class="add cart-btn mt-3"> <img
+                                        src="./images/cart-icon2.png" alt="">
                                     加入購物車</a>
                             </div>
 

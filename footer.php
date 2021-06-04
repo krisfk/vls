@@ -5,7 +5,7 @@
 
     <div class="container">
 
-        <div class="mt-5 d-inline-block w-100 position-relative">
+        <div class="mt-4 d-inline-block w-100 position-relative">
             <ul class="footer-menu-1">
                 <li><a href="javascript:void(0)"> 關於 好想買嘢 VLOVESHOPPING</a></li>
                 <li><a href="javascript:void(0)">訂購送貨</a></li>
@@ -175,11 +175,20 @@
                         <td colspan="2" class="limited-quantity pt-1">日本限量1000件</td>
                     </tr> -->
                         <tr>
+
+                            <td>原價</td>
+                            <td>
+                                <div class="old-price"> $79.99
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
                             <td class="abb align-bottom">特價</td>
                             <td>
                                 <div>
-                                    <div class="old-price"> HK$79.99
+                                    <!-- <div class="old-price"> $79.99
                                     </div>
+                                     -->
                                     <div class="final-price"><span class="s">$</span><span class="b">9999</span><span
                                             class="s">.99</span></div>
 

@@ -50,7 +50,7 @@ include('header.php');
                                 <!-- <img class="w-100" src="./images/video-img.jpg" alt=""> -->
 
                                 <video id="vls-video-1" name="videojs" class="video-js vls-video-1" controls
-                                    preload="auto" width="640" height="264" poster="MY_VIDEO_POSTER.jpg"
+                                    preload="auto" width="640" height="264" poster="./images/still-thumbnail.jpg"
                                     data-setup="{}">
                                     <source src="https://vjs.zencdn.net/v/oceans.mp4" type="video/mp4" />
                                     <p class="vjs-no-js">
@@ -73,25 +73,25 @@ include('header.php');
             <!-- </div> -->
         </div>
     </div>
-    <div class=" foot-bg foot-bg-div   pb-5">
+    <div class=" foot-bg foot-bg-div   pb-lg-5 pb-md-3 pb-sm-3  pb-3 ">
         <div class="container">
 
 
             <div class="text-center">
 
                 <div class="enlarge-video-div">
-                    <div class="ribbon-subtitle mt-5 text-center fw-bold position-relative">
+                    <a href="./snoopy.php" class="ribbon-subtitle   text-center fw-bold position-relative">
                         <img class="subtitle-left-ribbon" src="./images/subtitle-left-ribbon.png" alt="">
 
                         史路比奇幻世界
                         <img class="subtitle-right-ribbon" src="./images/subtitle-right-ribbon.png" alt="">
-                    </div>
+                    </a>
 
                     <div class="mt-4">
                         <div class="video-img-div">
                             <img class="dummy" src="./images/video-img.jpg" alt="">
 
-                            <video playsinline id="vls-video-2" name="videojs" class="video-js vls-video-2" controls
+                            <!-- <video playsinline id="vls-video-2" name="videojs" class="video-js vls-video-2" controls
                                 preload="auto" width="640" height="264" poster="MY_VIDEO_POSTER.jpg" data-setup="{}">
                                 <source src="https://vjs.zencdn.net/v/oceans.mp4" type="video/mp4" />
                                 <p class="vjs-no-js">
@@ -100,20 +100,20 @@ include('header.php');
                                     <a href="https://videojs.com/html5-video-support/" target="_blank">supports
                                         HTML5 video</a>
                                 </p>
-                            </video>
+                            </video> -->
 
                         </div>
                     </div>
                 </div>
 
-                <a href="./snoopy.php" class="ribbon-subtitle mt-3 text-center fw-bold position-relative mt-5">
+                <a href="./snoopy.php" class="ribbon-subtitle  text-center fw-bold position-relative">
                     <img class="subtitle-left-ribbon" src="./images/subtitle-left-ribbon.png" alt="">
 
                     好想買史路比奇幻世界
                     <img class="subtitle-right-ribbon" src="./images/subtitle-right-ribbon.png" alt="">
                 </a>
 
-                <div class="row mt-5 gx-lg-2 gx-md-2 gx-sm-2 gx-2 ">
+                <div class="row mt-4 gx-lg-2 gx-md-2 gx-sm-2 gx-2 ">
 
 
                     <?php for($i=0;$i<4;$i++)
@@ -155,7 +155,7 @@ include('header.php');
                                     </div>
                                 </div>
                                 <div class="limited-quantity  mt-1">日本限量版1000件</div>
-                                <div class="old-price price  mt-1">HK$79.99</div>
+                                <div class="old-price price  mt-1">$79.99</div>
                                 <div class="final-price"><span class="s">$</span><span class="b">9999</span><span
                                         class="s">.99</span></div>
                             </a>
@@ -231,7 +231,8 @@ include('header.php');
 
                                         <li> <a href="" class="heart hover-layer-btn"><img class="heart-icon"
                                                     src="./images/heart-icon.png" alt="">加入好想買清單</a></li>
-
+                                        <li class="hover-layer-product-detail-btn"><a href="./product-detail.php"></a>
+                                        </li>
                                     </ul>
 
                                 </div>
@@ -303,7 +304,8 @@ include('header.php');
 
                                         <li> <a href="" class="heart hover-layer-btn"><img class="heart-icon"
                                                     src="./images/heart-icon.png" alt="">加入好想買清單</a></li>
-
+                                        <li class="hover-layer-product-detail-btn"><a href="./product-detail.php"></a>
+                                        </li>
                                     </ul>
 
                                 </div>
@@ -376,7 +378,8 @@ include('header.php');
 
                                         <li> <a href="" class="heart hover-layer-btn"><img class="heart-icon"
                                                     src="./images/heart-icon.png" alt="">加入好想買清單</a></li>
-
+                                        <li class="hover-layer-product-detail-btn"><a href="./product-detail.php"></a>
+                                        </li>
                                     </ul>
 
                                 </div>
@@ -428,19 +431,17 @@ include('header.php');
 <script type="text/javascript">
 $(function() {
 
-
+    resize_action()
 
     var myPlayer = videojs('vls-video-1');
-    var myPlayer2 = videojs('vls-video-2');
+    // var myPlayer2 = videojs('vls-video-2');
 
 
 
     var videoJsButtonClass = videojs.getComponent('Button');
     var concreteButtonClass = videojs.extend(videoJsButtonClass, {
 
-        // The `init()` method will also work for constructor logic here, but it is 
-        // deprecated. If you provide an `init()` method, it will override the
-        // `constructor()` method!
+
         constructor: function() {
             videoJsButtonClass.call(this, myPlayer);
         }, // notice the comma
@@ -449,13 +450,13 @@ $(function() {
             // Do your stuff
         }
     });
-    myPlayer2.controlBar.fullscreenToggle.dispose();
+    // myPlayer2.controlBar.pictureInPictureToggle.dispose();
 
 
     var concreteButtonInstance = myPlayer.controlBar.addChild(new concreteButtonClass());
     concreteButtonInstance.addClass("vjs-enlarge");
     concreteButtonInstance.addClass("vjs-fullscreen-control");
-    myPlayer.controlBar.fullscreenToggle.dispose();
+    // myPlayer.controlBar.fullscreenToggle.dispose();
     myPlayer.controlBar.pictureInPictureToggle.dispose();
 
 
@@ -463,6 +464,24 @@ $(function() {
     concreteButtonInstance.addClass("vjs-smaller");
     concreteButtonInstance.addClass("vjs-icon-picture-in-picture-exit");
     $('.vjs-smaller').fadeOut(0);
+
+
+    myPlayer.ready(function() {
+        // alert(4)
+        // var myPlayer = this;
+
+        if ($(window).width() <= 1200) {
+            $('.vjs-enlarge').click();
+            $('.vls-video-1 .vjs-smaller').fadeOut(0);
+
+            $('.vls-video-1  .vjs-fullscreen-control').not('.vjs-enlarge').fadeIn(0);
+
+        }
+        // EXAMPLE: Start playing the video.
+        // myPlayer.play();
+
+    });
+
 
     $('.vjs-enlarge').click(function() {
         $('.video-img-div').prepend($('.video-js'));
@@ -500,11 +519,97 @@ $(function() {
         // pauseOnHover: false
     });
 
+    $('.vls-video-1  .vjs-fullscreen-control').not('.vjs-enlarge').fadeOut(0);
+
+
     $(window).resize(function() {
-        // alert(6)
-        // $('.banner-container').slick('resize')
+
+        if (!$('.enlarge-video-div').hasClass('fullscreen')) {
+
+
+
+            // myPlayer.pause();
+            // myPlayer2.pause();
+        }
+        resize_action()
 
     })
+
+    $('.vjs-fullscreen-control[title="Fullscreen"]').click(function() {
+        $('.enlarge-video-div').toggleClass('fullscreen');
+    })
+
+
+    function resize_action() {
+
+
+        if ($(window).width() <= 1200) {
+            if ($(window).width() == 1200) {
+                $('.video-img-div').height(528);
+                // $('.video-img-div').width(936);
+
+
+
+            } else {
+                $('.video-img-div').height($('.dummy').height());
+
+            }
+
+
+            // $('.video-img-div').prepend($('.video-js'));
+            // $('.enlarge-video-div').not('.fullscreen').fadeIn(0)
+            if (!$('.enlarge-video-div').hasClass('fullscreen')) {
+
+                $('.vjs-enlarge').click()
+
+
+                $('.vls-video-1 .vjs-smaller').fadeOut(0);
+
+                $('.vls-video-1  .vjs-fullscreen-control').not('.vjs-enlarge').fadeIn(0);
+
+
+            }
+
+        } else {
+            // $('.enlarge-video-div').not('.fullscreen').fadeOut(0)
+            // $('.video-img-div-small').prepend($('.video-js'));
+            if (!$('.enlarge-video-div').hasClass('fullscreen'))
+
+            {
+                $('.vjs-smaller').click();
+                $('.vls-video-1 .vjs-smaller').fadeOut(0);
+                $('.vls-video-1  .vjs-fullscreen-control').not('.vjs-enlarge').fadeOut(0);
+
+            }
+
+        }
+
+    }
+
+
+    document.addEventListener("fullscreenchange", function() {
+
+        if (!document.fullscreen) {
+
+            $('.enlarge-video-div').removeClass('fullscreen');
+
+        }
+        // console.log(document.fullscreen);
+    }, false);
+    document.addEventListener("mozfullscreenchange", function() {
+        if (!document.mozFullScreen) {
+            $('.enlarge-video-div').removeClass('fullscreen');
+
+        }
+
+    }, false);
+    document.addEventListener("webkitfullscreenchange", function() {
+        if (!document.webkitIsFullScreen) {
+            $('.enlarge-video-div').removeClass('fullscreen');
+
+        }
+
+    }, false);
 
 
 
@@ -512,6 +617,15 @@ $(function() {
 })
 </script>
 
+<style type="text/css">
+@media (max-width: 1200px) {
+    .categories-div {
+        display: block;
+        /* margin: 80px auto 0 auto; */
+
+    }
+}
+</style>
 <?php
 include('footer.php');
 ?>

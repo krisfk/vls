@@ -24,7 +24,7 @@ include('header.php');
                 <div class="position-relative">
                     <img class="w-100" src="./images/dummy-video.jpg" alt="">
                     <video playsinline id="vls-video-3" name="videojs" class="video-js vls-video-3" controls
-                        preload="auto" width="640" height="264" poster="MY_VIDEO_POSTER.jpg" data-setup="{}">
+                        preload="auto" width="640" height="264" poster="./images/still-thumbnail.jpg" data-setup="{}">
                         <source src="https://vjs.zencdn.net/v/oceans.mp4" type="video/mp4" />
                         <p class="vjs-no-js">
                             To view this video please enable JavaScript, and consider upgrading
@@ -46,7 +46,7 @@ include('header.php');
 
         <div class="row">
             <div class="col-12 gx-5">
-                <div class="breadcrumb mt-4 mb-4"><a href="./"><img class="reg-icon" src="./images/reg-icon.png" alt="">
+                <div class="breadcrumb mt-3 mb-3"><a href="./"><img class="reg-icon" src="./images/reg-icon.png" alt="">
                         <span class="m-0 home-txt"> 好想買嘢
                             VLoveShopping</span></a>
                     <span class="arrow">></span>
@@ -58,16 +58,19 @@ include('header.php');
 
         <div class="row mt-0">
             <div class="col-lg-6 gx-5 col-md-6 col-sm-6 col-6 show-items-div">顯示 30 of 250</div>
-            <div class="col-lg-6 col-md-12 col-sm-12 col-12 text-end">
+            <div class="col-lg-6 col-md-6 col-sm-6 col-6 text-end">
 
                 <select class="product-list-sort-select form-select w-auto d-inline-block">
-                    <option selected>好想買指數</option>
+
+                    <option selected>篩選</option>
+
+                    <option value="0">好想買指數</option>
                     <option value="1">最新貨品</option>
                     <option value="2">價錢(低至高)</option>
                     <option value="3">價錢(高至低)</option>
                 </select>
 
-                <ul class="p-0 m-0 text-center product-list-sort-ul ">
+                <!-- <ul class="p-0 m-0 text-center product-list-sort-ul ">
                     <li class="d-inline-block">
 
                         <a href="javascript:void(0)">好想買指數</a>
@@ -84,7 +87,7 @@ include('header.php');
                         <a href="javascript:void(0)">價錢(高至低)</a>
 
                     </li>
-                </ul>
+                </ul> -->
 
             </div>
 
@@ -94,7 +97,7 @@ include('header.php');
         <ul class="product-list-ul product-list-ul-col6">
             <?php for($i=0;$i<36;$i++)
             {?>
-            <li class="mb-5 product-li">
+            <li class="mb-4 product-li">
                 <div class="product-div-1">
 
                     <div class="text-center position-relative product-img-wrapper">
@@ -107,7 +110,8 @@ include('header.php');
 
                                 <li> <a href="./favorite.php" class="hover-layer-btn heart"><img class="heart-icon"
                                             src="./images/heart-icon.png" alt="">加入好想買清單</a></li>
-
+                                <li class="hover-layer-product-detail-btn"><a href="./product-detail.php"></a>
+                                </li>
                             </ul>
 
                         </div>
@@ -133,11 +137,11 @@ include('header.php');
 
                         </div>
                         <div class="limited-quantity  mt-1">日本限量版1000件</div>
-                        <div class="old-price price  mt-1">HK$79.99</div>
+                        <div class="old-price price  mt-1">$79.99</div>
                         <div class="final-price"><span class="s">$</span><span class="b">9999</span><span
                                 class="s">.99</span></div>
                     </a>
-                    <a href="javascript:void(0)" class="cart-btn add mt-3"> <img src="./images/cart-icon2.png" alt="">
+                    <a href="javascript:void(0)" class="cart-btn add mt-2"> <img src="./images/cart-icon2.png" alt="">
                         加入購物車</a>
                 </div>
 
@@ -145,7 +149,7 @@ include('header.php');
             <?php }?>
         </ul>
 
-        <div class="row mt-3 mb-3 g-0">
+        <div class="row mt-0 mb-1 g-0">
             <div class="col-lg-3 col-md-4 col-sm-12 col-12   show-items-div bottom-show-items-div">顯示 30 of 250</div>
             <div class="col-lg-6 col-md-8 col-sm-12 col-12">
 
@@ -223,7 +227,9 @@ for($i=0;$i<1;$i++)
                                             <li> <a href="./favorite.php" class="heart hover-layer-btn"><img
                                                         class="heart-icon" src="./images/heart-icon.png"
                                                         alt="">加入好想買清單</a></li>
-
+                                            <li class="hover-layer-product-detail-btn"><a
+                                                    href="./product-detail.php"></a>
+                                            </li>
                                         </ul>
 
                                     </div>
@@ -298,7 +304,9 @@ for($i=0;$i<1;$i++)
                                             <li> <a href="./favorite.php" class="heart hover-layer-btn"><img
                                                         class="heart-icon" src="./images/heart-icon.png"
                                                         alt="">加入好想買清單</a></li>
-
+                                            <li class="hover-layer-product-detail-btn"><a
+                                                    href="./product-detail.php"></a>
+                                            </li>
                                         </ul>
 
                                     </div>
@@ -371,7 +379,9 @@ for($i=0;$i<1;$i++)
                                             <li> <a href="./favorite.php" class="heart hover-layer-btn"><img
                                                         class="heart-icon" src="./images/heart-icon.png"
                                                         alt="">加入好想買清單</a></li>
-
+                                            <li class="hover-layer-product-detail-btn"><a
+                                                    href="./product-detail.php"></a>
+                                            </li>
                                         </ul>
 
                                     </div>
@@ -443,6 +453,13 @@ for($i=0;$i<1;$i++)
 }
 </style>
 <script type="text/javascript">
+$(function() {
+
+    var myPlayer = videojs('vls-video-3');
+    myPlayer.controlBar.pictureInPictureToggle.dispose();
+
+
+})
 // init_play_btn();
 // $(window).resize(function() {
 

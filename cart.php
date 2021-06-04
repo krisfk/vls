@@ -120,7 +120,10 @@
                                 <td class="text-end">$50.00</td>
                             </tr>
                             <tr>
-                                <td colspan="2">尚餘$20.00免運</td>
+                                <td colspan="2">
+                                    買多 <span class="blue"> $99.00</span> 即免運費
+
+                                </td>
                             </tr>
 
 
@@ -151,7 +154,7 @@
                             </tr>
                         </table>
 
-                        <a href="./cart2.php" class="want cart-btn mt-3">結算</a>
+                        <a href="./cart2.php" class=" cart-btn mt-3">結算</a>
                     </div>
 
                 </div>

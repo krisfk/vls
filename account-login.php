@@ -3,9 +3,13 @@
     <div class="middle-content">
         <div class="black-line"></div>
         <div class="container">
-            <div class="breadcrumb mt-3"> <a href="./"> 好想買嘢 VLoveShopping</a> <span class="arrow">></span> <span>
-                    登入</span>
+
+            <div class="breadcrumb mt-3"><a href="./"><img class="reg-icon" src="./images/reg-icon.png" alt=""> <a
+                        href="./" class="home-txt"> 好想買嘢 VLoveShopping</a> <span class="arrow"> > </span>
+                    <a href="javascript:void(0)" class="now-pos"> 登入</a>
             </div>
+
+
 
             <div class="text-center pt-5">
 
@@ -110,9 +114,11 @@
                             <div class="mt-2">
 
                                 <ul class="m-0 p-0 no-dot">
-                                    <li><input type="checkbox" class="form-check-input" id="agree-1"> <label
-                                            for="agree-1">
-                                            同意聲明一</label></li>
+                                    <li>
+                                        <!-- <input type="checkbox" class="form-check-input" id="agree-1">  -->
+                                        <label for="agree-1">
+                                            同意聲明一</label>
+                                    </li>
                                     <li><input type="checkbox" class="form-check-input" id="agree-2"> <label
                                             for="agree-2">同意聲明二</label></li>
 
@@ -166,6 +172,8 @@ $(function() {
         $('.form-login').fadeIn(0);
         $('.form-reg').fadeOut(0);
 
+        $('.now-pos').html('登入');
+
 
     })
     $('.reg-form-btn').click(function() {
@@ -174,6 +182,8 @@ $(function() {
 
         $('.form-login').fadeOut(0);
         $('.form-reg').fadeIn(0);
+        $('.now-pos').html('登記');
+
 
 
     })

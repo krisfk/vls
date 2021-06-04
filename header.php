@@ -17,9 +17,10 @@
     <link href="https://vjs.zencdn.net/7.11.4/video-js.css" rel="stylesheet" />
     <link rel='stylesheet' href='style.css' media='all' />
 
-    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
-    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />
-    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <link rel="stylesheet" type="text/css"
+        href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
 
     <script type="text/javascript" src="common.js"></script>
 </head>
@@ -45,19 +46,25 @@
             </div>
             <ul class="mt-3">
                 <li>
-                    <a href="./account-login.php"><img class="login-icon" src="./images/login-icon.png" alt="">
+                    <a href="./account-login.php"><img class="login-icon" src="./images/reg-icon.png" alt="">
                         登入/登記</a>
                 </li>
+
+                <li>
+                    <a href="./account-login.php"><img class="login-icon" src="./images/bm-icon.png" alt="">
+                        好想買清單</a>
+                </li>
+
                 <?php
                 for($i=0;$i<10;$i++)
                 {
                     ?>
 
-                <li class="mt-3">
+                <li class="mt-0">
+                    <a class="arrow" href="javascript:void(0)"></a>
 
-                    <a href="javascript:void(0)" class="level-1"> 日本市集
+                    <a href="./market.php" class="level-1"> 日本市集
 
-                        <div class="arrow"></div>
                     </a>
                     <ul>
                         <li class="level-2-li"><a href=""> 日本調味醬料</a></li>
