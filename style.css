@@ -2270,6 +2270,9 @@ h1.product-name {
 
 .mobile-menu-container {
     display: block;
+    overflow: scroll !important;
+    height: 100%;
+    margin: 0;
 }
 
 .mobile-menu-container a {

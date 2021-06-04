@@ -225,6 +225,7 @@ $(function() {
 
     $(window).resize(function() {
         // $('.enlarge-video-div').removeClass('fullscreen');
+        $('.mobile-menu-btn-icon-a,.mobile-search-icon-a').removeClass('active');
 
         $('.sticky.categories-div-wrapper,.mobile-menu-div').fadeOut(0);
 

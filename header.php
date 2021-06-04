@@ -39,7 +39,7 @@
             <a href="javascript:void(0)" class="close-btn"></a>
         </div>
 
-        <div class="mobile-menu-container me-3 ms-3 mt-3">
+        <div class="mobile-menu-container p-3">
             <div class="position-relative">
                 <a href="javascript:void(0)" class="search-input-2-close-btn"></a>
                 <input type="text" class="form-control" id="search-input-2">
@@ -56,7 +56,7 @@
                 </li>
 
                 <?php
-                for($i=0;$i<10;$i++)
+                for($i=0;$i<20;$i++)
                 {
                     ?>
 
