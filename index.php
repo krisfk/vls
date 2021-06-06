@@ -45,13 +45,9 @@ include('header.php');
                                 style="background: url(./images/still-thumbnail.jpg)">
 
                                 <div class="pause-txt">影響放大播放中...</div>
-                                <!-- <a href="javascript:void(0);" class="play-btn-div">
-                                </a> -->
-                                <!-- <img class="w-100" src="./images/video-img.jpg" alt=""> -->
 
                                 <video playsinline id="vls-video-1" name="videojs" class="video-js vls-video-1" controls
-                                    preload="auto" width="640" height="264" poster="./images/black.jpg"
-                                    data-setup="{}">
+                                    preload="auto" width="640" height="264" poster="./images/black.jpg" data-setup="{}">
                                     <source src="https://vjs.zencdn.net/v/oceans.mp4" type="video/mp4" />
                                     <p class="vjs-no-js">
                                         To view this video please enable JavaScript, and consider upgrading to a
@@ -434,9 +430,6 @@ $(function() {
     resize_action()
 
     var myPlayer = videojs('vls-video-1');
-    // var myPlayer2 = videojs('vls-video-2');
-
-
 
     var videoJsButtonClass = videojs.getComponent('Button');
     var concreteButtonClass = videojs.extend(videoJsButtonClass, {
@@ -470,8 +463,6 @@ $(function() {
 
 
     myPlayer.ready(function() {
-        // alert(4)
-        // var myPlayer = this;
 
         if ($(window).width() <= 1200) {
             $('.vjs-enlarge').click();
@@ -480,8 +471,7 @@ $(function() {
             $('.vls-video-1  .vjs-fullscreen-control').not('.vjs-enlarge').fadeIn(0);
 
         }
-        // EXAMPLE: Start playing the video.
-        // myPlayer.play();
+
 
     });
 
