@@ -382,18 +382,19 @@ $(function() {
 
 
     $(window).resize(function() {
-        // alert(3)
-        // myPlayer.pause();
-        // myPlayer2.pause();
 
-        // if()
-        resize_action();
+        if (!isAndroid) {
+
+            resize_action()
+        }
+
 
 
     });
 
 
     $('.vjs-fullscreen-control[title="Fullscreen"]').click(function() {
+        // alert(4)
         $('.enlarge-video-div').toggleClass('fullscreen');
     })
 
