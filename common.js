@@ -469,6 +469,17 @@ $(function() {
         }, 200);
 
         $('.msg-txt').html('已加入購物⾞');
+
+        if ($(this).hasClass('quick-add')) {
+            setTimeout(function() {
+                $('.msg-box').fadeOut(200);
+                $('.msg-box').removeClass('stay');
+            }, 1500);
+        } else {
+            setTimeout(function() {
+                $('.lightbox-bg').click();
+            }, 1500);
+        }
     });
 
     $('.quick-product-view').click(function() {
@@ -489,11 +500,11 @@ $(function() {
 function check_window_size() {
     if ($(window).width() < 1200) {
         $('body').addClass('mobile');
-        $('a[target="_blank"]').attr('target', '_self');
+        // $('a[target="_blank"]').attr('target', '_self');
         $('.top-space').height($('.top-menu-div').height());
     } else {
         $('body').removeClass('mobile');
-        $('a[target="_self"]').attr('target', '_blank');
+        // $('a[target="_self"]').attr('target', '_blank');
 
         $('.top-space').height(0);
     }

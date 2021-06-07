@@ -253,7 +253,7 @@
                             <td colspan="2">
 
 
-                                <a href="javascript:void(0)" class="cart-btn add mt-3 "> <img
+                                <a href="javascript:void(0)" class="cart-btn add mt-3 quick-add  "> <img
                                         src="./images/cart-icon2.png" alt="">
                                     加入購物車</a>
 

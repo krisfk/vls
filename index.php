@@ -137,7 +137,7 @@ include('header.php');
                                     <img class="w-100" src="./images/product-foto-1.jpg" alt="">
                                 </a>
                             </div>
-                            <a href="./product-detail.php" target="_blank">
+                            <a href="./product-detail.php" target="_self">
                                 <div class="product-name">日版 多啦A夢 叮噹造型曲奇餅禮盒（1盒6塊）</div>
                                 <div class="product-set mt-1">1盒6塊</div>
 
@@ -234,7 +234,7 @@ include('header.php');
                                 </div>
                                 <a href="./product-detail.php"><img src="./images/product-foto-2.jpg" alt=""></a>
                             </div>
-                            <a href="./product-detail.php" target="_blank">
+                            <a href="./product-detail.php" target="_self">
                                 <div class="product-name-2">日本日本多啦A夢叮日本日本多啦A夢叮</div>
                                 <div class="final-price"><span class="s">$</span> <span class="b">60.00</span></div>
                             </a>
@@ -308,7 +308,7 @@ include('header.php');
                                 <a href="./product-detail.php"><img src="./images/product-foto-2.jpg" alt=""></a>
 
                             </div>
-                            <a href="./product-detail.php" target="_blank">
+                            <a href="./product-detail.php" target="_self">
                                 <div class="product-name-2">日本日本多啦A夢叮日本日本多啦A夢叮</div>
                                 <div class="final-price"><span class="s">$</span> <span class="b">60.00</span></div>
                             </a>
@@ -382,7 +382,7 @@ include('header.php');
                                 <a href="./product-detail.php"> <img src="./images/product-foto-2.jpg" alt=""></a>
 
                             </div>
-                            <a href="./product-detail.php" target="_blank">
+                            <a href="./product-detail.php" target="_self">
                                 <div class="product-name-2">日本日本多啦A夢叮日本日本多啦A夢叮</div>
                                 <div class="final-price"><span class="s">$</span> <span class="b">60.00</span></div>
                             </a>
