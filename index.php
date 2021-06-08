@@ -44,7 +44,7 @@ include('header.php');
                             <div class="position-relative ps-3 pe-3 video-img-div-small"
                                 style="background: url(./images/still-thumbnail.jpg)">
 
-                                <div class="pause-txt">影響放大播放中...</div>
+                                <div class="pause-txt">影片放大播放中...</div>
 
                                 <video playsinline id="vls-video-1" name="videojs" class="video-js vls-video-1" controls
                                     preload="auto" width="640" height="264" poster="./images/black.jpg" data-setup="{}">

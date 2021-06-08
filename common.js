@@ -239,11 +239,11 @@ $(function() {
         $('.categories-div ul').css({ margin: '' });
 
         if (typeof myPlayer !== 'undefined') {
-            myPlayer.pause();
+            // myPlayer.pause();
         }
 
         if (typeof myPlayer2 !== 'undefined') {
-            myPlayer2.pause();
+            // myPlayer2.pause();
         }
 
         $('.nation-a').removeClass('active');

@@ -249,7 +249,7 @@
                             <div class="position-relative ps-3 pe-3 video-img-div-small"
                                 style="background: url(./images/still-thumbnail.jpg)">
 
-                                <div class="pause-txt">影響放大播放中...</div>
+                                <div class="pause-txt">影片放大播放中...</div>
 
                                 <video playsinline id="vls-video-1" name="videojs" class="video-js vls-video-1" controls
                                     preload="auto" width="640" height="264" poster="./images/black.jpg" data-setup="{}">
@@ -318,6 +318,8 @@
 <script type="text/javascript">
 $(function() {
 
+    var init = false;
+
     $('.product-thumbnail-ul a').click(function() {
 
         var img_url = $(this).find('img').attr('src');
@@ -327,10 +329,23 @@ $(function() {
 
     // mobile-product-slide
 
-    resize_action()
 
-    var myPlayer = videojs('vls-video-1');
+    // $('.vjs-enlarge').click();
+    myPlayer = videojs('vls-video-1', {}, function() {
 
+        setTimeout(() => {
+            // console.log('play')
+            myPlayer.autoplay('muted');
+            $('.vjs-enlarge').click()
+        }, 0);
+        // resize_action();
+    });
+    // resize_action();
+
+    // $('.vjs-poster').click()
+    // myPlayer.autoplay('muted');
+
+    // alert(6)
     var videoJsButtonClass = videojs.getComponent('Button');
     var concreteButtonClass = videojs.extend(videoJsButtonClass, {
 
@@ -364,6 +379,9 @@ $(function() {
 
 
     myPlayer.ready(function() {
+
+        // console.log(myPlayer)
+        // myPlayer.autoplay('muted');
 
         if ($(window).width() <= 1200) {
             $('.vjs-enlarge').click();
@@ -401,6 +419,10 @@ $(function() {
 
 
     function resize_action() {
+        // console.log(myPlayer)
+        // alert(6)
+        // console.log(myPlayer)
+
         if ($(window).width() <= 1200) {
             if ($(window).width() == 1200) {
                 $('.video-img-div').height(528);
@@ -423,9 +445,7 @@ $(function() {
 
         } else {
 
-            if (!$('.enlarge-video-div').hasClass('fullscreen'))
-
-            {
+            if (!$('.enlarge-video-div').hasClass('fullscreen')) {
                 $('.vjs-smaller').click();
                 $('.vls-video-1 .vjs-smaller').fadeOut(0);
                 $('.vls-video-1  .vjs-fullscreen-control').not('.vjs-enlarge').fadeOut(0);
@@ -439,8 +459,11 @@ $(function() {
         $('.video-img-div').prepend($('.video-js'));
         $('.vjs-enlarge').fadeOut(0);
         $('.vjs-smaller').fadeIn(0);
-        $('.enlarge-video-div').slideDown(200, function() {
+
+
+        $('.enlarge-video-div').slideDown(!init ? 0 : 200, function() {
             $('.video-img-div').height($('.video-img-div').height());
+            init = true
 
         });
     })
