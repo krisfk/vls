@@ -18,3 +18,9 @@
             優惠資訊</a></li>
     <li class="logout-li"><a class="logout-a" href="javascript:void(0)">登出</a></li>
 </ul>
+
+<script type="text/javascript">
+$(function() {
+    $('.account-login-li .right-nav-txt').html('xxyy的專頁')
+})
+</script>

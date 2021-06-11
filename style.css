@@ -7,7 +7,7 @@
 }
 
 a {
-    color: #000;
+    color: #c12932;
     text-decoration: none;
 }
 
@@ -148,6 +148,20 @@ a:hover {
 
 .flag {
     width: 48px;
+    height: 48px;
+    opacity: 0;
+}
+
+.flag-div {
+    width: 48px;
+    height: 48px;
+    margin: 0 auto;
+    /* background: url(./images/flag-1.png); */
+    background-size: 105% 105%;
+    border-radius: 48px;
+    overflow: hidden;
+    border: 1px solid #c7c5c5;
+    background-position: center center;
 }
 
 .categories-div {
@@ -302,7 +316,7 @@ a:hover {
 }
 
 .right-nav-li {
-    width: 275px;
+    width: auto;
 }
 
 .market-txt {}
@@ -1381,18 +1395,18 @@ h1.product-name {
 
 .back-to-top-btn {
     /* position: fixed; */
-    width: 133px;
-    height: 40px;
+    width: 100px;
+    height: 30px;
     background: hsl(0deg 0% 0% / 70%);
     color: #fff;
     /* display: block; */
     margin: 0 auto;
-    line-height: 40px;
+    line-height: 30px;
     border-radius: 18px;
     position: fixed;
     left: 50%;
     transform: translate(-50%, 0);
-    bottom: 4%;
+    bottom: 2%;
     text-align: center;
     z-index: 1000;
     display: none;

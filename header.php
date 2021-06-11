@@ -307,7 +307,9 @@
                 <div class="flag-col col-lg-4 col-md-12 col-sm-12 col-12">
                     <ul>
                         <li><a href="./market.php" class="nation-a" data-color="#c12932">
-                                <img class="flag" src="./images/flag-1.png" alt="">
+                                <div class="flag-div" style="background:url(./images/flag-1.png)">
+                                    <img class="flag" src="./images/flag-1.png" alt="">
+                                </div>
                                 <div class="mt-1 market-txt">日本市集</div>
                             </a>
                             <div class="nation-tri">
