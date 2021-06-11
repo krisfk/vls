@@ -125,8 +125,9 @@ include('header.php');
                                         <li> <a href="javascript:void(0)" class="hover-layer-btn quick-view"> <img
                                                     class="eye-icon" src="./images/eye-icon.png" alt="">快速睇產品</a></li>
 
-                                        <li> <a href="" class="heart hover-layer-btn"><img class="heart-icon"
-                                                    src="./images/heart-icon.png" alt="">加入好想買清單</a></li>
+                                        <li> <a href="javascript:void(0)" class="heart hover-layer-btn"><img
+                                                    class="heart-icon" src="./images/heart-icon.png" alt="">加入好想買清單</a>
+                                        </li>
                                         <li class="hover-layer-product-detail-btn"><a href="./product-detail.php"></a>
                                         </li>
                                     </ul>
@@ -225,8 +226,9 @@ include('header.php');
                                         <li> <a href="javascript:void(0)" class="hover-layer-btn quick-view"> <img
                                                     class="eye-icon" src="./images/eye-icon.png" alt="">快速睇產品</a></li>
 
-                                        <li> <a href="" class="heart hover-layer-btn"><img class="heart-icon"
-                                                    src="./images/heart-icon.png" alt="">加入好想買清單</a></li>
+                                        <li> <a href="javascript:void(0)" class="heart hover-layer-btn"><img
+                                                    class="heart-icon" src="./images/heart-icon.png" alt="">加入好想買清單</a>
+                                        </li>
                                         <li class="hover-layer-product-detail-btn"><a href="./product-detail.php"></a>
                                         </li>
                                     </ul>
@@ -298,8 +300,9 @@ include('header.php');
                                         <li> <a href="javascript:void(0)" class="hover-layer-btn quick-view"> <img
                                                     class="eye-icon" src="./images/eye-icon.png" alt="">快速睇產品</a></li>
 
-                                        <li> <a href="" class="heart hover-layer-btn"><img class="heart-icon"
-                                                    src="./images/heart-icon.png" alt="">加入好想買清單</a></li>
+                                        <li> <a href="javascript:void(0)" class="heart hover-layer-btn"><img
+                                                    class="heart-icon" src="./images/heart-icon.png" alt="">加入好想買清單</a>
+                                        </li>
                                         <li class="hover-layer-product-detail-btn"><a href="./product-detail.php"></a>
                                         </li>
                                     </ul>
@@ -372,8 +375,9 @@ include('header.php');
                                         <li> <a href="javascript:void(0)" class="hover-layer-btn quick-view"> <img
                                                     class="eye-icon" src="./images/eye-icon.png" alt="">快速睇產品</a></li>
 
-                                        <li> <a href="" class="heart hover-layer-btn"><img class="heart-icon"
-                                                    src="./images/heart-icon.png" alt="">加入好想買清單</a></li>
+                                        <li> <a href="javascript:void(0)" class="heart hover-layer-btn"><img
+                                                    class="heart-icon" src="./images/heart-icon.png" alt="">加入好想買清單</a>
+                                        </li>
                                         <li class="hover-layer-product-detail-btn"><a href="./product-detail.php"></a>
                                         </li>
                                     </ul>

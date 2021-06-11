@@ -490,6 +490,26 @@ $(function() {
         $('.msg-box.stay').fadeOut(0);
         $('.msg-box.stay').removeClass('stay');
     });
+
+    $('.heart.hover-layer-btn').click(function() {
+        $('.lightbox-bg,.msg-box').fadeIn(200);
+        setTimeout(() => {
+            $('.msg-box').addClass('stay');
+        }, 200);
+
+        $('.msg-txt').html('已加入好想買清單');
+
+        if ($(this).hasClass('quick-add')) {
+            setTimeout(function() {
+                $('.msg-box').fadeOut(200);
+                $('.msg-box').removeClass('stay');
+            }, 1500);
+        } else {
+            setTimeout(function() {
+                $('.lightbox-bg').click();
+            }, 1500);
+        }
+    });
 });
 
 // for (i = 0; i < $('.hover-layer').length; i++) {
