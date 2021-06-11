@@ -491,7 +491,7 @@ $(function() {
         $('.msg-box.stay').removeClass('stay');
     });
 
-    $('.heart.hover-layer-btn').click(function() {
+    $('.heart.hover-layer-btn .want.cart-btn').click(function() {
         $('.lightbox-bg,.msg-box').fadeIn(200);
         setTimeout(() => {
             $('.msg-box').addClass('stay');
