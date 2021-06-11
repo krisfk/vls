@@ -226,7 +226,7 @@
                                     alt="">
                                 加入購物車</a>
 
-                            <a href="./favorite.php" class="want cart-btn mt-3"><img class="heart-icon"
+                            <a href="javascript:void(0);" class="want cart-btn mt-3"><img class="heart-icon"
                                     src="./images/heart-icon.png" alt="">加入好想買清單</a>
 
 

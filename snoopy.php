@@ -118,7 +118,7 @@ include('header.php');
                                 <li> <a href="javascript:void(0)" class="hover-layer-btn quick-view"> <img
                                             class="eye-icon" src="./images/eye-icon.png" alt="">快速睇產品</a></li>
 
-                                <li> <a href="./favorite.php" class="hover-layer-btn heart"><img class="heart-icon"
+                                <li> <a href="javascript:void(0);" class="hover-layer-btn heart"><img class="heart-icon"
                                             src="./images/heart-icon.png" alt="">加入好想買清單</a></li>
                                 <li class="hover-layer-product-detail-btn"><a href="./product-detail.php"></a>
                                 </li>
@@ -234,7 +234,7 @@ for($i=0;$i<1;$i++)
                                                         class="eye-icon" src="./images/eye-icon.png" alt="">快速睇產品</a>
                                             </li>
 
-                                            <li> <a href="./favorite.php" class="heart hover-layer-btn"><img
+                                            <li> <a href="javascript:void(0);" class="heart hover-layer-btn"><img
                                                         class="heart-icon" src="./images/heart-icon.png"
                                                         alt="">加入好想買清單</a></li>
                                             <li class="hover-layer-product-detail-btn"><a
@@ -311,7 +311,7 @@ for($i=0;$i<1;$i++)
                                                         class="eye-icon" src="./images/eye-icon.png" alt="">快速睇產品</a>
                                             </li>
 
-                                            <li> <a href="./favorite.php" class="heart hover-layer-btn"><img
+                                            <li> <a href="javascript:void(0);" class="heart hover-layer-btn"><img
                                                         class="heart-icon" src="./images/heart-icon.png"
                                                         alt="">加入好想買清單</a></li>
                                             <li class="hover-layer-product-detail-btn"><a
@@ -386,7 +386,7 @@ for($i=0;$i<1;$i++)
                                                         class="eye-icon" src="./images/eye-icon.png" alt="">快速睇產品</a>
                                             </li>
 
-                                            <li> <a href="./favorite.php" class="heart hover-layer-btn"><img
+                                            <li> <a href="javascript:void(0);" class="heart hover-layer-btn"><img
                                                         class="heart-icon" src="./images/heart-icon.png"
                                                         alt="">加入好想買清單</a></li>
                                             <li class="hover-layer-product-detail-btn"><a
