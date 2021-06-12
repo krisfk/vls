@@ -180,7 +180,7 @@ include('header.php');
 
                     <select class="product-list-sort-select form-select w-auto d-inline-block">
 
-                        <option selected>篩選</option>
+                        <option selected>排序</option>
 
                         <option value="0">好想買指數</option>
                         <option value="1">最新貨品</option>

@@ -195,11 +195,19 @@
                                 </div>
                             </td>
                         </tr>
+                        <tr>
+
+
+
+
+                            <td class="att">產品規格</td>
+                            <td>⼀盒六塊</td>
+                        </tr>
 
                         <tr>
-                            <td class="att  ">好想買指數
+                            <td class="att pt-2 ">好想買指數
                             </td>
-                            <td class="">
+                            <td class="pt-2">
                                 <div class="pt-div"><img class="pt" src="./images/green-pt.png" alt=""> <img class="pt"
                                         src="./images/green-pt.png" alt=""> <img class="pt" src="./images/green-pt.png"
                                         alt=""> <img class="pt" src="./images/green-pt.png" alt="">

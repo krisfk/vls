@@ -24,10 +24,14 @@
 
                     <?php for($i=0;$i<3;$i++) {?>
                     <ul class="mb-3">
-                        <li><img class="product-foto" src="./images/product-foto-1.jpg" alt=""></li>
+                        <li>
+                            <a href="./product-detail.php">
+                                <img class="product-foto" src="./images/product-foto-1.jpg" alt=""></a>
+                        </li>
                         <li class="product-name-li">
-                            日版 多啦A夢 叮噹造型曲奇餅禮盒（1盒6塊)
-
+                            <a href="./product-detail.php">
+                                日版 多啦A夢 叮噹造型曲奇餅禮盒（1盒6塊)
+                            </a>
                             <div class="row">
                                 <div class="col-6 quantity-ui-mobile-position">
 

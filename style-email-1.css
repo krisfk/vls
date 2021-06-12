@@ -1,0 +1,100 @@
+.top-color-bar {
+    height: 11px;
+    background: url(images/top-color-bar.jpg);
+    background-size: contain;
+    display: block;
+    width: 100%;
+}
+
+.main-container {
+    display: block;
+    width: 490px;
+    margin: 0 auto;
+}
+
+.logo-a {
+    display: table;
+    margin: 15px auto;
+}
+
+.logo-a img {
+    width: 338px;
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+.order-no {
+    color: #0061b1;
+    font-weight: bold;
+}
+
+.green {
+    color: #008f22;
+}
+
+.product-foto {
+    width: 75px;
+}
+
+.order-table {
+    margin: 0px 0 0 0;
+    width: 100%;
+}
+
+.order-table a {
+    text-decoration: none;
+    color: #000;
+}
+
+.order-table td {
+    padding: 0 0 20px 0;
+}
+
+.product-price {
+    margin: 20px 0 0 0;
+}
+
+.grey-line {
+    display: block;
+    height: 1px;
+    background: #cad0d4;
+}
+
+.payment-detail-table {
+    width: 100%;
+    font-size: 13px;
+    margin: 20px 0 0 0;
+}
+
+.text-end {
+    text-align: right;
+}
+
+.total-price {
+    font-size: 18px;
+}
+
+.order-table-div {
+    padding: 20px;
+    margin: 20px 0 0 0;
+    border: 1px solid #ccd1d5;
+}
+
+.name-hi {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 45px 0 0 0;
+    display: block;
+}
+
+.black-line {
+    display: block;
+    height: 1px;
+    background: #000;
+}

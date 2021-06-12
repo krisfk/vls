@@ -47,7 +47,7 @@
             <ul class="mt-3">
                 <li>
                     <a href="./account-login.php"><img class="login-icon" src="./images/reg-icon.png" alt="">
-                        登入/登記</a>
+                        <span class="login-txt">登入/登記</span></a>
                 </li>
 
                 <li>
@@ -206,7 +206,7 @@
 
                                 <img class="right-nav-icon" src="./images/reg-icon.png" alt="">
 
-                                <div class="right-nav-txt">登入/登記</div>
+                                <div class="right-nav-txt"> <span class="login-txt">登入/登記</span></div>
 
                             </a>
 
@@ -306,7 +306,7 @@
             <div class="row g-0">
                 <div class="flag-col col-lg-4 col-md-12 col-sm-12 col-12">
                     <ul>
-                        <li><a href="./market.php" class="nation-a" data-color="#c12932">
+                        <li><a href="./market.php" class="nation-a active" data-color="#c12932">
                                 <div class="flag-div" style="background:url(./images/flag-1.png)">
                                     <img class="flag" src="./images/flag-1.png" alt="">
                                 </div>
@@ -318,7 +318,9 @@
 
                         </li>
                         <li><a href="./market.php" class="nation-a" data-color="#006a97">
-                                <img class="flag" src="./images/flag-2.png" alt="">
+                                <div class="flag-div" style="background:url(./images/flag-2.png)">
+                                    <img class="flag" src="./images/flag-2.png" alt="">
+                                </div>
                                 <div class="mt-1 market-txt">韓國市集</div>
                             </a>
                             <div class="nation-tri">
@@ -326,7 +328,10 @@
                             <div class="nation-tri-bg"></div>
                         </li>
                         <li><a href="./market.php" class="nation-a" data-color="#0060b7">
-                                <img class="flag" src="./images/flag-3.png" alt="">
+                                <div class="flag-div" style="background:url(./images/flag-3.png)">
+                                    <img class="flag" src="./images/flag-3.png" alt="">
+
+                                </div>
                                 <div class="mt-1 market-txt">泰國市集</div>
                             </a>
                             <div class="nation-tri">
@@ -334,7 +339,9 @@
                             <div class="nation-tri-bg"></div>
                         </li>
                         <li><a href="./market.php" class="nation-a" data-color="#ffab00">
-                                <img class="flag" src="./images/flag-4.png" alt="">
+                                <div class="flag-div" style="background:url(./images/flag-4.png)">
+                                    <img class="flag" src="./images/flag-4.png" alt="">
+                                </div>
                                 <div class="mt-1 market-txt">德國市集</div>
                             </a>
                             <div class="nation-tri">
@@ -346,7 +353,10 @@
                 <div class="flag-col col-lg-4 col-md-12 col-sm-12 col-12">
                     <ul>
                         <li><a href="./market.php" class="nation-a" data-color="#009300">
-                                <img class="flag" src="./images/flag-5.png" alt="">
+                                <div class="flag-div" style="background:url(./images/flag-5.png)">
+
+                                    <img class="flag" src="./images/flag-5.png" alt="">
+                                </div>
                                 <div class="mt-1 market-txt">意大利市集</div>
                             </a>
                             <div class="nation-tri">
@@ -354,7 +364,10 @@
                             <div class="nation-tri-bg"></div>
                         </li>
                         <li><a href="./market.php" class="nation-a" data-color="#0060b7">
-                                <img class="flag" src="./images/flag-6.png" alt="">
+                                <div class="flag-div" style="background:url(./images/flag-6.png)">
+
+                                    <img class="flag" src="./images/flag-6.png" alt="">
+                                </div>
                                 <div class="mt-1 market-txt">澳紐市集</div>
                             </a>
                             <div class="nation-tri">
@@ -362,7 +375,10 @@
                             <div class="nation-tri-bg"></div>
                         </li>
                         <li><a href="./market.php" class="nation-a" data-color="#009d2f">
-                                <img class="flag" src="./images/flag-7.png" alt="">
+                                <div class="flag-div" style="background:url(./images/flag-7.png)">
+
+                                    <img class="flag" src="./images/flag-7.png" alt="">
+                                </div>
                                 <div class="mt-1 market-txt">茶莊市集</div>
                             </a>
                             <div class="nation-tri">
@@ -370,7 +386,10 @@
                             <div class="nation-tri-bg"></div>
                         </li>
                         <li><a href="./market.php" class="nation-a" data-color="#16597c">
-                                <img class="flag" src="./images/flag-8.png" alt="">
+                                <div class="flag-div" style="background:url(./images/flag-8.png)">
+
+                                    <img class="flag" src="./images/flag-8.png" alt="">
+                                </div>
                                 <div class="mt-1 market-txt">市集世界</div>
                             </a>
                             <div class="nation-tri">
@@ -382,7 +401,10 @@
                 <div class="flag-col col-lg-4 col-md-12 col-sm-12 col-12">
                     <ul>
                         <li><a href="./market.php" class="nation-a" data-color="#c9c7c7">
-                                <img class="flag" src="./images/flag-9.png" alt="">
+                                <div class="flag-div" style="background:url(./images/flag-9.png)">
+
+                                    <img class="flag" src="./images/flag-9.png" alt="">
+                                </div>
                                 <div class="mt-1 market-txt">未知市集</div>
                             </a>
                             <div class="nation-tri">
@@ -390,7 +412,10 @@
                             <div class="nation-tri-bg"></div>
                         </li>
                         <li><a href="./market.php" class="nation-a" data-color="#c9c7c7">
-                                <img class="flag" src="./images/flag-9.png" alt="">
+                                <div class="flag-div" style="background:url(./images/flag-9.png)">
+
+                                    <img class="flag" src="./images/flag-9.png" alt="">
+                                </div>
                                 <div class="mt-1 market-txt">未知市集</div>
                             </a>
                             <div class="nation-tri">
@@ -398,7 +423,10 @@
                             <div class="nation-tri-bg"></div>
                         </li>
                         <li><a href="./market.php" class="nation-a" data-color="#c9c7c7">
-                                <img class="flag" src="./images/flag-9.png" alt="">
+                                <div class="flag-div" style="background:url(./images/flag-9.png)">
+
+                                    <img class="flag" src="./images/flag-9.png" alt="">
+                                </div>
                                 <div class="mt-1 market-txt">未知市集</div>
                             </a>
                             <div class="nation-tri">
@@ -406,7 +434,10 @@
                             <div class="nation-tri-bg"></div>
                         </li>
                         <li><a href="./market.php" class="nation-a" data-color="#c9c7c7">
-                                <img class="flag" src="./images/flag-9.png" alt="">
+                                <div class="flag-div" style="background:url(./images/flag-9.png)">
+
+                                    <img class="flag" src="./images/flag-9.png" alt="">
+                                </div>
                                 <div class="mt-1 market-txt">更多</div>
                             </a>
                             <div class="nation-tri">
@@ -425,7 +456,12 @@
 
                     <ul class="d-table p-0 m-0 w-auto">
                         <li class="d-table-cell w-auto nation-submenu-flag-title-li">
-                            <img class="flag" src="./images/flag-2.png" alt="">
+                            <div class="flag-div" style="background:url(./images/flag-2.png)">
+
+                                <img class="flag" src="./images/flag-2.png" alt="">
+                            </div>
+
+
                         </li>
                         <li class="d-table-cell ps-2  nation-submenu-flag-title-li"> 韓國市集</li>
                     </ul>
@@ -549,7 +585,10 @@
                 <div class="col-lg-4 col-md-12 col-sm-12 col-12">
                     <ul>
                         <li><a href="./market.php" class="nation-a" data-color="#c12932">
-                                <img class="flag" src="./images/flag-1.png" alt="">
+                                <div class="flag-div" style="background:url(./images/flag-1.png)">
+
+                                    <img class="flag" src="./images/flag-1.png" alt="">
+                                </div>
                                 <div class="mt-1 market-txt">日本市集</div>
                             </a>
                             <div class="nation-tri">
@@ -558,7 +597,10 @@
 
                         </li>
                         <li><a href="./market.php" class="nation-a" data-color="#006a97">
-                                <img class="flag" src="./images/flag-2.png" alt="">
+                                <div class="flag-div" style="background:url(./images/flag-2.png)">
+
+                                    <img class="flag" src="./images/flag-2.png" alt="">
+                                </div>
                                 <div class="mt-1 market-txt">韓國市集</div>
                             </a>
                             <div class="nation-tri">
@@ -566,7 +608,10 @@
                             <div class="nation-tri-bg"></div>
                         </li>
                         <li><a href="./market.php" class="nation-a" data-color="#0060b7">
-                                <img class="flag" src="./images/flag-3.png" alt="">
+                                <div class="flag-div" style="background:url(./images/flag-3.png)">
+
+                                    <img class="flag" src="./images/flag-3.png" alt="">
+                                </div>
                                 <div class="mt-1 market-txt">泰國市集</div>
                             </a>
                             <div class="nation-tri">
@@ -574,7 +619,10 @@
                             <div class="nation-tri-bg"></div>
                         </li>
                         <li><a href="./market.php" class="nation-a" data-color="#ffab00">
-                                <img class="flag" src="./images/flag-4.png" alt="">
+                                <div class="flag-div" style="background:url(./images/flag-4.png)">
+
+                                    <img class="flag" src="./images/flag-4.png" alt="">
+                                </div>
                                 <div class="mt-1 market-txt">德國市集</div>
                             </a>
                             <div class="nation-tri">
@@ -586,7 +634,10 @@
                 <div class="col-lg-4 col-md-12 col-sm-12 col-12">
                     <ul>
                         <li><a href="./market.php" class="nation-a" data-color="#009300">
-                                <img class="flag" src="./images/flag-5.png" alt="">
+                                <div class="flag-div" style="background:url(./images/flag-5.png)">
+
+                                    <img class="flag" src="./images/flag-5.png" alt="">
+                                </div>
                                 <div class="mt-1 market-txt">意大利市集</div>
                             </a>
                             <div class="nation-tri">
@@ -594,7 +645,10 @@
                             <div class="nation-tri-bg"></div>
                         </li>
                         <li><a href="./market.php" class="nation-a" data-color="#0060b7">
-                                <img class="flag" src="./images/flag-6.png" alt="">
+                                <div class="flag-div" style="background:url(./images/flag-6.png)">
+
+                                    <img class="flag" src="./images/flag-6.png" alt="">
+                                </div>
                                 <div class="mt-1 market-txt">澳紐市集</div>
                             </a>
                             <div class="nation-tri">
@@ -602,7 +656,10 @@
                             <div class="nation-tri-bg"></div>
                         </li>
                         <li><a href="./market.php" class="nation-a" data-color="#009d2f">
-                                <img class="flag" src="./images/flag-7.png" alt="">
+                                <div class="flag-div" style="background:url(./images/flag-7.png)">
+
+                                    <img class="flag" src="./images/flag-7.png" alt="">
+                                </div>
                                 <div class="mt-1 market-txt">茶莊市集</div>
                             </a>
                             <div class="nation-tri">
@@ -610,7 +667,10 @@
                             <div class="nation-tri-bg"></div>
                         </li>
                         <li><a href="./market.php" class="nation-a" data-color="#16597c">
-                                <img class="flag" src="./images/flag-8.png" alt="">
+                                <div class="flag-div" style="background:url(./images/flag-8.png)">
+
+                                    <img class="flag" src="./images/flag-8.png" alt="">
+                                </div>
                                 <div class="mt-1 market-txt">市集世界</div>
                             </a>
                             <div class="nation-tri">
@@ -622,7 +682,10 @@
                 <div class="col-lg-4 col-md-12 col-sm-12 col-12">
                     <ul>
                         <li><a href="./market.php" class="nation-a" data-color="#c9c7c7">
-                                <img class="flag" src="./images/flag-9.png" alt="">
+                                <div class="flag-div" style="background:url(./images/flag-9.png)">
+
+                                    <img class="flag" src="./images/flag-9.png" alt="">
+                                </div>
                                 <div class="mt-1 market-txt">未知市集</div>
                             </a>
                             <div class="nation-tri">
@@ -630,7 +693,10 @@
                             <div class="nation-tri-bg"></div>
                         </li>
                         <li><a href="./market.php" class="nation-a" data-color="#c9c7c7">
-                                <img class="flag" src="./images/flag-9.png" alt="">
+                                <div class="flag-div" style="background:url(./images/flag-9.png)">
+
+                                    <img class="flag" src="./images/flag-9.png" alt="">
+                                </div>
                                 <div class="mt-1 market-txt">未知市集</div>
                             </a>
                             <div class="nation-tri">
@@ -638,7 +704,10 @@
                             <div class="nation-tri-bg"></div>
                         </li>
                         <li><a href="./market.php" class="nation-a" data-color="#c9c7c7">
-                                <img class="flag" src="./images/flag-9.png" alt="">
+                                <div class="flag-div" style="background:url(./images/flag-9.png)">
+
+                                    <img class="flag" src="./images/flag-9.png" alt="">
+                                </div>
                                 <div class="mt-1 market-txt">未知市集</div>
                             </a>
                             <div class="nation-tri">
@@ -646,7 +715,10 @@
                             <div class="nation-tri-bg"></div>
                         </li>
                         <li><a href="./market.php" class="nation-a" data-color="#c9c7c7">
-                                <img class="flag" src="./images/flag-9.png" alt="">
+                                <div class="flag-div" style="background:url(./images/flag-9.png)">
+
+                                    <img class="flag" src="./images/flag-9.png" alt="">
+                                </div>
                                 <div class="mt-1 market-txt">更多</div>
                             </a>
                             <div class="nation-tri">
@@ -665,7 +737,10 @@
 
                     <ul class="d-table p-0 m-0 w-auto">
                         <li class="d-table-cell w-auto nation-submenu-flag-title-li">
-                            <img class="flag" src="./images/flag-2.png" alt="">
+                            <div class="flag-div" style="background:url(./images/flag-2.png)">
+
+                                <img class="flag" src="./images/flag-2.png" alt="">
+                            </div>
                         </li>
                         <li class="d-table-cell ps-2  nation-submenu-flag-title-li"> 韓國市集</li>
                     </ul>

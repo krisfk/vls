@@ -109,12 +109,12 @@ $(function() {
             $('.nation-submenu').stop();
             // $('.nation-submenu').stop();
 
-            $(this).toggleClass('active');
+            $(this).toggleClass('hover');
 
             $('.nation-submenu').fadeOut(0);
 
-            $('.nation-a').removeClass('active');
-            $(this).addClass('active');
+            $('.nation-a').removeClass('hover');
+            $(this).addClass('hover');
             $('.nation-tri').removeClass('appear');
             $(this).next('.nation-tri').addClass('appear');
             $(this).next().next('.nation-tri-bg').addClass('appear');
@@ -179,7 +179,7 @@ $(function() {
     $('.nation-submenu').mouseleave(function() {
         $(this).fadeOut(0);
         $('.nation-tri, .nation-tri-bg').animate({ opacity: '0' }, 1);
-        $('.nation-a').removeClass('active');
+        $('.nation-a').removeClass('hover');
         // $('.nation-tri.appear').removeClass('appear');
     });
     $('.nation-a').mouseleave(function() {
@@ -246,7 +246,7 @@ $(function() {
             // myPlayer2.pause();
         }
 
-        $('.nation-a').removeClass('active');
+        $('.nation-a').removeClass('hover');
 
         $('.nation-tri').css({
             opacity: '0',

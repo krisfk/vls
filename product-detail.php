@@ -57,8 +57,6 @@
 
                                 日本市集 - 日版榛子朱古力夾心酥餅禮盒 (1盒7件)
 
-                                <span
-                                    class="mobile-less-quantity-label less-quantity-label d-inline-block position-relative">尚餘少量</span>
 
                             </h1>
 
@@ -68,7 +66,12 @@
                                 <li class="d-inline-block"><a href="javascript:void(0)"> 零食甜品</a></li>
                                 <li class="d-inline-block"><a href="javascript:void(0)">精選禮盒</a></li>
                                 <li class="d-inline-block"><a href="javascript:void(0)">朱古力</a></li>
+                                <li class="d-inline-block"><span
+                                        class="mobile-less-quantity-label less-quantity-label d-inline-block position-relative">尚餘少量</span>
+                                </li>
                             </ul>
+
+
                         </div>
 
                         <div class="col-lg-6 col-md-12 col-sm-12 col-12 desktop-product-img-col">
@@ -174,6 +177,20 @@
                                     <td class="att">產品規格 </td>
                                     <td>1盒6塊</td>
                                 </tr>
+
+
+                                <tr>
+                                    <td class="att pt-2">好想買指數：</td>
+                                    <td class=" pt-2">
+                                        <div class="pt-div"><img class="pt" src="./images/green-pt.png" alt=""> <img
+                                                class="pt" src="./images/green-pt.png" alt=""> <img class="pt"
+                                                src="./images/green-pt.png" alt="">
+                                            <img class="pt" src="./images/green-pt.png" alt="">
+                                            <img class="pt" src="./images/grey-pt.png" alt="">
+                                        </div>
+                                    </td>
+                                </tr>
+
 
                                 <!-- <tr>
                             <td class="att">產品特色 </td>
